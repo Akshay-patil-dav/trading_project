@@ -1,0 +1,95 @@
+@media (max-width: 968px) {
+    
+        /* Content for demonstration */
+        .content {
+          
+            display: flex;
+            width: 100%;
+            height: 150vw;
+            background-color: black;
+            gap: 0px;
+            background-repeat: no-repeat;
+            /* background-size: auto; */
+            padding: 25px;
+            opacity: 0px;
+            background-image: url("../img/closeup-of-a-bull-staring-into-the-camera-with-a-d-2023-11-27-05-26-00-utc\ 1.png");
+            /* background-size: 100%; */
+            background-size: 100% 50vw;
+            /* background-position-y: 5%; */
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-position: left ;
+        }
+
+.box-header-right{
+    background-color: transparent;
+    /* background-color: red; */
+    width: 110%;
+    height: auto;
+}
+.box-header-center{
+    background-color: transparent;
+    width: 100%;
+    height: auto;
+}
+.box-header-left{
+    /* display: flex; */
+    /* background-color: rgb(82, 23, 23); */
+    background-color: transparent;
+    width: 100%;
+    height: auto;
+}
+div.header-text-section{
+    font-size: 3.75vw;
+    /* background-color: red; */
+    width: 31.354vw;
+    height: 13.958vw;
+    color: white;
+    position: relative;
+    top: 10.729vw;
+    left: 5.833vw;
+    line-height: 90%;
+    text-align: left;
+    bottom: 4.948vw;
+}
+/* ************************* */
+.Explore{
+    width: 15.729vw;
+    height: 2.76vw;
+    position: absolute;
+    font-size: 1.042vw;
+    border: 0.2vw solid;
+    background-color: transparent;
+    color: white;
+    top: 28.187vw;
+    left: 6.833vw;
+}
+.Explore:hover{
+    background-color: white;
+    color: black;
+}
+.play-butt{
+    position: absolute;
+    right: 7%;
+    top: 30.208vw;
+    bottom: 6.042vw;
+    display: flex;
+}
+#video-click{
+    width: 15.813vw;
+    height: 15.813vw;
+    border: 0vw solid;
+    background-color: #70DA44;
+    border-radius: 100%;
+}
+.Play{
+    width: 5.313vw;
+    height: 40px;
+    margin: 0.8vw;
+    /* background-color: red; */
+    text-align: center;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-size: 4.938vw;
+}
+}

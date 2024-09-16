@@ -1,0 +1,39 @@
+.Explore{
+    width: 15.729vw;
+    height: 2.76vw;
+    position: absolute;
+    font-size: 1.042vw;
+    border: 0.2vw solid;
+    background-color: transparent;
+    color: white;
+    top: 28.187vw;
+    left: 6.833vw;
+}
+.Explore:hover{
+    background-color: white;
+    color: black;
+}
+.play-butt{
+    position: absolute;
+    right: 7%;
+    top: 30.208vw;
+    bottom: 6.042vw;
+    display: flex;
+}
+#video-click{
+    width: 2.813vw;
+    height: 2.813vw;
+    border: 0vw solid;
+    background-color: #70DA44;
+    border-radius: 100%;
+}
+.Play{
+    width: 5.313vw;
+    height: 40px;
+    margin: 0.8vw;
+    /* background-color: red; */
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    font-size: 0.938vw;
+}

@@ -1,0 +1,39 @@
+@import url("./Navigationbar.css");
+@import url("./Button.css");
+@import url("./responcive.css");
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+.box-header-right{
+    background-color: transparent;
+    /* background-color: red; */
+    width: 110%;
+    height: auto;
+}
+.box-header-center{
+    background-color: transparent;
+    width: 100%;
+    height: auto;
+}
+.box-header-left{
+    /* display: flex; */
+    /* background-color: rgb(82, 23, 23); */
+    background-color: transparent;
+    width: 100%;
+    height: auto;
+}
+div.header-text-section{
+    font-size: 3.75vw;
+    /* background-color: red; */
+    width: 31.354vw;
+    height: 13.958vw;
+    color: white;
+    position: relative;
+    top: 10.729vw;
+    left: 5.833vw;
+    line-height: 90%;
+    text-align: left;
+    bottom: 4.948vw;
+}
