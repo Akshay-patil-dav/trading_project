@@ -1,0 +1,11 @@
+
+.navbar .brand {
+    aspect-ratio: 3/2;
+    width: 231px;
+    height: 60px;
+    position: absolute;
+    left: 122px;
+    top: 22px;
+    object-fit: contain;
+    mix-blend-mode: color-burn;
+   }
