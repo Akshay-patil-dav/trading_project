@@ -42,9 +42,9 @@ div.header-text-section{
 
 @media screen and (max-width: 1900px) {
     div.header-text-section{
-        font-size: 45px;
+        font-size: 60px;
         /* background-color: red; */
-        width: 370px;
+        width: 500px;
 
         height: auto;
         color: white;
@@ -54,6 +54,23 @@ div.header-text-section{
         line-height: 90%;
         text-align: left;
         bottom: 178px;
+    }
+        
+    .Explore{
+        width: 302px;
+        height: 55px;
+        position: absolute;
+        font-size: 20px;
+        border: 0.2vw solid;
+        background-color: transparent;
+        color: white;
+        top: 400px;
+        left: 140px;
+        
+    }
+    .Explore:hover{
+        background-color: white;
+        color: black;
     }
 }
 

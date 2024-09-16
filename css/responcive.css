@@ -1,3 +1,4 @@
+
 @media (max-width: 1200px) {
     /* **************************** */
     .navbar .nav-links {
@@ -8,11 +9,13 @@
         flex-direction: column;
         background-color: #333;
         transition: left 0.3s ease;
+        z-index: 100;
     }
 
     .navbar .nav-links li {
         margin: 15px 0;
         text-align: center;
+        z-index: 100;
     }
 
     .navbar .nav-links.show {
@@ -33,17 +36,7 @@
  
     /* ***************************** */
     div.header-text-section{
-        font-size: 1cm;
-        /* background-color: red; */
-        width: 300px;
-        height: 288px;
-        color: white;
-        position: relative;
-        top: 206px;
-        left: 11px;
-        text-align: left;
-        line-height: 90%;
-        bottom: 178px;
+        font-size: 2vw;
     }
         /* Content for demonstration */
         .content {
@@ -88,15 +81,15 @@
 
 /* ************************* */
 .Explore{
-    width: 15.729vw;
-    height: 2.76vw;
+    width: 302px;
+    height: 55px;
     position: absolute;
-    font-size: 1.042vw;
+    font-size: 20px;
     border: 0.2vw solid;
     background-color: transparent;
     color: white;
-    top: 28.187vw;
-    left: 6.833vw;
+    top: 522px;
+    left: 150px;
 }
 .Explore:hover{
     background-color: white;
@@ -128,22 +121,3 @@
 }
 }
 
-@media screen and (max-width: 1900px) {
-    
-    .Explore{
-        width: 302px;
-        height: 55px;
-        position: absolute;
-        font-size: 20px;
-        border: 0.2vw solid;
-        background-color: transparent;
-        color: white;
-        top: 370px;
-        left: 140px;
-        
-    }
-    .Explore:hover{
-        background-color: white;
-        color: black;
-    }
-}

@@ -8,7 +8,8 @@
     left: 122px;
     top: 22px;
     object-fit: contain;
-    mix-blend-mode: color-burn;
+    /* mix-blend-mode: color-burn; */
+    z-index: 100;
    }
 
    @media (max-width: 968px) {

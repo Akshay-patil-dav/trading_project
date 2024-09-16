@@ -19,10 +19,12 @@
             /* background-color: black; */
             background-color: transparent;
             transition: background-color 0.3s ease-in-out;
+            z-index: 100;
         }
 
         .navbar.scrolled {
             background-color: #333;
+            z-index: 100;
         }
 
 
