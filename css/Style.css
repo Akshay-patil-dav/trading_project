@@ -8,6 +8,26 @@ body {
     font-family: Arial, sans-serif;
 }
 
+
+        /* Content for demonstration */
+        .content {
+            display: flex;
+            width: 100%;
+            height: 672px;
+            /* background-color: black; */
+            gap: 0px;
+            
+            /* background-size: auto; */
+            padding: 25px;
+            opacity: 0px;
+            background-image: url("../img/closeup-of-a-bull-staring-into-the-camera-with-a-d-2023-11-27-05-26-00-utc\ 1.png");
+            /* background-size: 100%; */
+            background-size: 100% 672px;
+            /* background-position-y: 5%; */
+            background-repeat: no-repeat;
+        }
+
+      
 .box-header-right{
     background-color: transparent;
     /* background-color: red; */
@@ -29,7 +49,7 @@ body {
 div.header-text-section{
     font-size: 72px;
     /* background-color: red; */
-    width: 682px;
+    width: 600px;
     height: 288px;
     color: white;
     position: relative;
@@ -40,38 +60,56 @@ div.header-text-section{
     bottom: 178px;
 }
 
-@media screen and (max-width: 1900px) {
-    div.header-text-section{
-        font-size: 60px;
-        /* background-color: red; */
-        width: 500px;
 
-        height: auto;
-        color: white;
-        position: relative;
-        top: 140px;
-        left: 112px;
-        line-height: 90%;
-        text-align: left;
-        bottom: 178px;
-    }
-        
-    .Explore{
-        width: 302px;
-        height: 55px;
-        position: absolute;
-        font-size: 20px;
-        border: 0.2vw solid;
-        background-color: transparent;
-        color: white;
-        top: 400px;
-        left: 140px;
-        
-    }
-    .Explore:hover{
-        background-color: white;
-        color: black;
-    }
+
+
+
+        /* Responsive design */
+ @media only screen and (max-width: 650px) {
+            /* Content for demonstration */
+.content {
+    display: flex;
+    width: 100%;
+    height: 872px;
+    background-color: black;
+    gap: 0px;
+   
+    padding: 25px;
+    opacity: 0px;
+    background-image: none;
+   
+}
+div.header-text-section{
+    font-size: 32px;
+    /* background-color: red; */
+    width: 250px;
+    height: 288px;
+    color: white;
+    position: relative;
+    top: 180px;
+    left: 50px;
+    line-height: 130%;
+    text-align: left;
+    bottom: 178px;
+}
+.Bull{
+    color: rgb(56, 239, 56);
+    font-family: Arial black;
 }
 
-
+.Explore{
+    width: 302px;
+    height: 55px;
+    position: absolute;
+    font-size: 20px;
+    border: 0.2vw solid;
+    background-color: transparent;
+    color: white;
+    top: 452px;
+    left: 50px;
+}
+.Explore:hover{
+    background-color: white;
+    color: black;
+}
+        }
