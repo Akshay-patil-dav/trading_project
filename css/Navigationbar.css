@@ -6,6 +6,7 @@
         }
 
      
+@media screen and (max-width: 3000px) {
         /* Navbar styling */
         .navbar {
             position: fixed;
@@ -94,41 +95,7 @@
 
      
 
-        /* Responsive design */
-        @media (max-width: 1200px) {
-            .navbar .nav-links {
-                position: absolute;
-                top: 100px;
-                left: -100%;
-                width: 100%;
-                flex-direction: column;
-                background-color: #333;
-                transition: left 0.3s ease;
-            }
-
-            .navbar .nav-links li {
-                margin: 15px 0;
-                text-align: center;
-            }
-
-            .navbar .nav-links.show {
-                left: 0;
-            }
-
-            .navbar .menu-toggle {
-                display: flex;
-            }
-
-            .navbar .search-bar {
-                display: none;
-            }
-
-
-
-
-            
-        }
-
+     
         /* Content for demonstration */
         .content {
             /* margin-top: 80px;
@@ -151,4 +118,4 @@ display: flex;
             background-repeat: no-repeat;
         }
 
-      
+    }

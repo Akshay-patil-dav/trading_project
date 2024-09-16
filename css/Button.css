@@ -1,3 +1,5 @@
+
+@media screen and (max-width: 3000px) {
 .Explore{
     width: 302px;
     height: 55px;
@@ -13,24 +15,7 @@
     background-color: white;
     color: black;
 }
-@media screen and (max-width: 1900px) {
-    .Explore{
-        width: 302px;
-        height: 55px;
-        position: absolute;
-        font-size: 20px;
-        border: 0.2vw solid;
-        background-color: transparent;
-        color: white;
-        top: 370px;
-        left: 130px;
-        
-    }
-    .Explore:hover{
-        background-color: white;
-        color: black;
-    }
-}
+
 .play-butt{
     position: absolute;
     right: 7%;
@@ -54,4 +39,6 @@
     text-decoration: none;
     color: white;
     font-size: 0.938vw;
+}
+
 }
