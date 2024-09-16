@@ -12,7 +12,7 @@
             /* background-size: auto; */
             padding: 25px;
             opacity: 0px;
-            background-image: url("../img/closeup-of-a-bull-staring-into-the-camera-with-a-d-2023-11-27-05-26-00-utc\ 1.png");
+            background-image:none;
             /* background-size: 100%; */
             background-size: 100% 50vw;
             /* background-position-y: 5%; */
@@ -39,19 +39,8 @@
     width: 100%;
     height: auto;
 }
-div.header-text-section{
-    font-size: 3.75vw;
-    /* background-color: red; */
-    width: 31.354vw;
-    height: 13.958vw;
-    color: white;
-    position: relative;
-    top: 10.729vw;
-    left: 5.833vw;
-    line-height: 90%;
-    text-align: left;
-    bottom: 4.948vw;
-}
+
+
 /* ************************* */
 .Explore{
     width: 15.729vw;

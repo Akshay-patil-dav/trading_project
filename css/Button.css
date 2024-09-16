@@ -1,17 +1,35 @@
 .Explore{
-    width: 15.729vw;
-    height: 2.76vw;
+    width: 302px;
+    height: 55px;
     position: absolute;
-    font-size: 1.042vw;
+    font-size: 20px;
     border: 0.2vw solid;
     background-color: transparent;
     color: white;
-    top: 28.187vw;
-    left: 6.833vw;
+    top: 522px;
+    left: 112px;
 }
 .Explore:hover{
     background-color: white;
     color: black;
+}
+@media screen and (max-width: 1900px) {
+    .Explore{
+        width: 302px;
+        height: 55px;
+        position: absolute;
+        font-size: 20px;
+        border: 0.2vw solid;
+        background-color: transparent;
+        color: white;
+        top: 370px;
+        left: 130px;
+        
+    }
+    .Explore:hover{
+        background-color: white;
+        color: black;
+    }
 }
 .play-butt{
     position: absolute;

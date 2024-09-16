@@ -26,15 +26,48 @@ body {
     height: auto;
 }
 div.header-text-section{
-    font-size: 3.75vw;
+    font-size: 72px;
     /* background-color: red; */
-    width: 31.354vw;
-    height: 13.958vw;
+    width: 682px;
+    height: 288px;
     color: white;
     position: relative;
-    top: 10.729vw;
-    left: 5.833vw;
+    top: 206px;
+    left: 112px;
     line-height: 90%;
     text-align: left;
-    bottom: 4.948vw;
+    bottom: 178px;
 }
+
+@media screen and (max-width: 1900px) {
+    div.header-text-section{
+        font-size: 45px;
+        /* background-color: red; */
+        width: 370px;
+
+        height: auto;
+        color: white;
+        position: relative;
+        top: 140px;
+        left: 112px;
+        line-height: 90%;
+        text-align: left;
+        bottom: 178px;
+    }
+}
+@media screen and (max-width: 900px) {
+    div.header-text-section{
+        font-size: 1cm;
+        /* background-color: red; */
+        width: 300px;
+        height: 288px;
+        color: white;
+        position: relative;
+        top: 206px;
+        left: 11px;
+        text-align: left;
+        line-height: 90%;
+        bottom: 178px;
+    }
+}
+

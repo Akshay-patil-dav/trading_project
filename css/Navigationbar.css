@@ -82,24 +82,23 @@
         }
 
         /* Responsive menu button */
-        .navbar .menu-toggle {
+       .menu-toggle {
             display: none;
             flex-direction: column;
             cursor: pointer;
+            color: white;
+            font-size:1cm;
+            position: relative;
+            top: 15px;
         }
 
-        .navbar .menu-toggle div {
-            width: 25px;
-            height: 3px;
-            background-color: #fff;
-            margin: 4px;
-        }
+     
 
         /* Responsive design */
         @media (max-width: 968px) {
             .navbar .nav-links {
                 position: absolute;
-                top: 70px;
+                top: 100px;
                 left: -100%;
                 width: 100%;
                 flex-direction: column;

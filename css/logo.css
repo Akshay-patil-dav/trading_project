@@ -9,3 +9,17 @@
     object-fit: contain;
     mix-blend-mode: color-burn;
    }
+
+   @media (max-width: 968px) {
+    
+.navbar .brand {
+    aspect-ratio: 3/2;
+    width: 231px;
+    height: 60px;
+    position: absolute;
+    left: 30px;
+    top: 22px;
+    object-fit: contain;
+    mix-blend-mode: color-burn;
+   }
+   }
