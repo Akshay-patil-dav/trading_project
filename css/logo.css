@@ -1,5 +1,5 @@
 
-@media screen and (max-width: 3000px) {
+
 .navbar .brand {
     aspect-ratio: 3/2;
     width: 231px;
@@ -24,4 +24,3 @@
     mix-blend-mode: color-burn;
    }
    }
-}

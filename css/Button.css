@@ -1,5 +1,5 @@
 
-@media screen and (max-width: 3000px) {
+
 .Explore{
     width: 302px;
     height: 55px;
@@ -9,7 +9,7 @@
     background-color: transparent;
     color: white;
     top: 522px;
-    left: 112px;
+    left: 150px;
 }
 .Explore:hover{
     background-color: white;
@@ -39,6 +39,4 @@
     text-decoration: none;
     color: white;
     font-size: 0.938vw;
-}
-
 }
