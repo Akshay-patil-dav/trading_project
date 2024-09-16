@@ -55,7 +55,7 @@ div.header-text-section{
         bottom: 178px;
     }
 }
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 1000px) {
     div.header-text-section{
         font-size: 1cm;
         /* background-color: red; */
