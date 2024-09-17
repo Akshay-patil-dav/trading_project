@@ -175,7 +175,7 @@ div.header-text-section{
    
 
         /* Responsive design */
- @media only screen and (max-width: 950px) {
+ @media only screen and (max-width: 120px) {
 
     body{
         overflow-x: hidden;
@@ -345,9 +345,82 @@ div.header-text-section{
         }
 
 /* ******************************************************* */
- @media (min-width: 2150px) and (max-width : 9200px)
+ @media (min-width: 2000px) and (max-width : 9200px)
  {
 
+    .Explore{
+        width: 302px;
+        height: 55px;
+        position: absolute;
+        font-size: 20px;
+        border: 0.2vw solid;
+        background-color: transparent;
+        color: white;
+        /* top: 28vw; */
+        left: 11.5vw;
+    }
+    .Explore:hover{
+        background-color: white;
+        color: black;
+    }
+    
+    .navbar .nav-links {
+        display: flex;
+        list-style: none;
+        position: absolute;
+        top: 39px;
+        left: 40vw;
+        /* top: 39px; */
+    }
+
+    .navbar .nav-links li {
+        margin: 0 2.344vw;
+    }
+
+    .navbar .nav-links li a {
+        color: #fff;
+        text-decoration: none;
+        font-size: 1rem;
+        transition: color 0.3s;
+        position: relative;
+   
+     
+    }
+
+    .navbar .nav-links li a:hover {
+        color: #ddd;
+    }
+
+    
+         /* Search bar styling */
+
+    
+         .navbar .search-bar {
+            display: flex;
+            align-items: center;
+        }
+
+        .navbar .search-bar input {
+            width: 263px;
+            padding: 10px;
+            height: 38px;
+            border-radius: 10px;
+            border: none;
+            outline: none;
+            background-color: transparent;
+            border: 2px solid;
+            color: white;
+            
+            transition: background-color 0.3s;
+            /* margin-right: 78px; */
+            position: absolute;
+            left: 70vw;
+        }
+
+        .navbar .search-bar input::placeholder {
+            color: #888;
+        }
+       
     body {
        /* background-color: red; */
     }
@@ -398,7 +471,7 @@ div.header-text-section{
         color: white;
         position: relative;
         top: 206px;
-        left: 112px;
+        left: 10vw;
         line-height: 90%;
         text-align: left;
         bottom: 178px;
@@ -481,7 +554,7 @@ div.header-text-section{
         margin: 5cm;
         position: relative;
         bottom: 20px;
-        left: 55px;
+        left: 10vw;
         text-align: left;
         
     }
