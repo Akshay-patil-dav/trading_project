@@ -83,14 +83,13 @@
         .navbar .search-bar input::placeholder {
             color: #888;
         }
+    /* Responsive menu button */
+    .menu-toggle {
+      display: none;
+        
+       }
 
-
-        /* Responsive menu button */
-       .menu-toggle {
-         color: red;
-         width: 2cm;
-         height: 2cm;
-        }
+    
 
      
 

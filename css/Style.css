@@ -343,3 +343,179 @@ div.header-text-section{
 
 
         }
+
+/* ******************************************************* */
+ @media (min-width: 2150px) and (max-width : 9200px)
+ {
+
+    body {
+       /* background-color: red; */
+    }
+    
+    
+            /* Content for demonstration */
+            .content {
+                display: flex;
+                width: 100%;
+                height: 802px;
+                background-color: black;
+                gap: 0px;
+                
+                /* background-size: auto; */
+                padding: 25px;
+                opacity: 0px;
+                background-image: url("../img/closeup-of-a-bull-staring-into-the-camera-with-a-d-2023-11-27-05-26-00-utc\ 1.png");
+                /* background-size: 100%; */
+                background-size: 100% 800px;
+                /* background-position-y: 5%; */
+                background-repeat: no-repeat;
+            }
+    
+          
+    .box-header-right{
+        background-color: transparent;
+        /* background-color: red; */
+        width: 110%;
+        height: auto;
+    }
+    .box-header-center{
+        background-color: transparent;
+        width: 100%;
+        height: auto;
+    }
+    .box-header-left{
+        /* display: flex; */
+        /* background-color: rgb(82, 23, 23); */
+        background-color: transparent;
+        width: 100%;
+        height: auto;
+    }
+    div.header-text-section{
+        font-size: 72px;
+        /* background-color: red; */
+        width: 600px;
+        height: 288px;
+        color: white;
+        position: relative;
+        top: 206px;
+        left: 112px;
+        line-height: 90%;
+        text-align: left;
+        bottom: 178px;
+    }
+    
+    .partners{
+        /* background-color: rgb(255, 229, 142); */
+        width: 100%;
+        height: 288px;
+        
+    }
+    
+    #Trusted{
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        color: black;
+        position: relative;
+        left:0vw;
+        width: 100%;
+        /* background-color: red; */
+        /* text-align: center; */
+        top: 36px;
+        font-size: 32px;
+    }
+    
+    
+    .partners-logo {
+        display: grid;
+        grid-template-columns: repeat(auto-fill,
+          minmax(200px, 1fr));
+        grid-gap: 10px;
+        position: relative;
+        /* background-color: red; */
+     
+        
+    }
+    
+    .partners-logo>div {
+        font-size: 20px;
+        padding: 1rem;
+      /* position: relative; */
+     
+    
+    }
+    
+    .img-log-brand{
+        /* aspect-ratio: 3/2; */
+        object-fit: contain;
+        position: relative;
+        top: 32px;
+        left: 30vw;
+    }
+    
+    
+    /* *****************Insights-Delivered*******************************/ 
+    
+    .Insights-Delivered{
+        background-color: #113456;
+        width: 100%;
+        height: 976px;
+    }
+    
+    
+    .textheader-Delivered{
+        color: white;
+        /* background-color: red; */
+        width: 100%;
+        font-size: 64px;
+        text-align: center;
+        position: relative;
+        top: 53px;
+        /* left: 356px; */
+    }
+    
+    .infogrid {
+        display: grid;
+        /* grid-template-columns: repeat(2,1fr); */
+        grid-template-columns: auto  auto;
+        /* gap: 1; */
+        grid-gap: 20px;
+        margin: 5cm;
+        position: relative;
+        bottom: 20px;
+        left: 55px;
+        text-align: left;
+        
+    }
+    
+    .infogrid>div {
+        font-size: 20px;
+        /* padding: 15rem; */
+        width: 650px;
+        height: 304px;
+        color: rgb(255, 255, 255);
+        /* text-align: center; */
+        /* background: red; */
+    }
+    .lo1{
+        position: relative;
+        left: 0;
+        width: 50px;
+        height: 56px;
+        aspect-ratio: 3/2;
+        object-fit: contain;
+    }
+    
+    .text-header-bio{
+    
+        margin-top: 10px;
+         font-family: Arial black; 
+         font-size: 32px;
+    }
+    #text-header-bio{
+        /* background-color: red; */
+        width: 540px;
+        font-size: 24px;
+    }
+    
+       
+
+        }

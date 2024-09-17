@@ -24,6 +24,10 @@
 
             .navbar .menu-toggle {
                 display: flex;
+                color: white;
+                position: absolute;
+                right: 45px;
+                top: 40px;
             }
 
             .navbar .search-bar {
