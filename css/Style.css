@@ -353,7 +353,7 @@ div.header-text-section{
                 grid-gap: 10px;
                 position: relative;
                 /* left: 0px; */
-                right: 5cm;
+                right: 6cm;
                 /* background-color: red; */
              
                 
@@ -375,8 +375,8 @@ div.header-text-section{
                 margin: 5cm;
                 position: relative;
                 bottom: 20px;
-                /* left: 0vw; */
-                right: 0;
+                /* left: -9vw; */
+                /* right: 0; */
                 text-align: left;
                 
             }
