@@ -344,6 +344,29 @@ div.header-text-section{
 
         }
 
+
+        @media (min-width: 1200px) and (max-width : 1554px){
+            .partners-logo {
+                display: grid;
+                grid-template-columns: repeat(auto-fill,
+                  minmax(200px, 1fr));
+                grid-gap: 10px;
+                position: relative;
+                /* left: 0px; */
+                right: 5cm;
+                /* background-color: red; */
+             
+                
+            }
+            
+            .partners-logo>div {
+                font-size: 20px;
+                padding: 1rem;
+              /* position: relative; */
+             
+            
+            }
+        }
 /* ******************************************************* */
  @media (min-width: 2000px) and (max-width : 9200px)
  {
