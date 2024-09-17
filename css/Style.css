@@ -207,7 +207,7 @@ div.header-text-section{
 .partners-logo {
     display: grid;
     grid-template-columns: repeat(auto-fill,
-      minmax(200px, 1fr));
+      minmax(170px, 1fr));
     grid-gap: 10px
 }
 
@@ -218,7 +218,7 @@ div.header-text-section{
 }
 
 .img-log-brand{
-    aspect-ratio: 8/2;
+    aspect-ratio: 3/2;
     object-fit: contain;
     position: relative;
     top: 32px;
