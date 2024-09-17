@@ -366,6 +366,30 @@ div.header-text-section{
              
             
             }
+            .infogrid {
+                display: grid;
+                /* grid-template-columns: repeat(2,1fr); */
+                grid-template-columns: auto  auto;
+                /* gap: 1; */
+                grid-gap: 20px;
+                margin: 5cm;
+                position: relative;
+                bottom: 20px;
+                /* left: 0vw; */
+                right: 0;
+                text-align: left;
+                
+            }
+            
+            .infogrid>div {
+                font-size: 20px;
+                /* padding: 15rem; */
+                width: 650px;
+                height: 304px;
+                color: rgb(255, 255, 255);
+                /* text-align: center; */
+                /* background: red; */
+            }
         }
 /* ******************************************************* */
  @media (min-width: 2000px) and (max-width : 9200px)
