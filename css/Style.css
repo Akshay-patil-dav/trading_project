@@ -172,9 +172,10 @@ div.header-text-section{
     font-size: 24px;
 }
 
+   
 
         /* Responsive design */
- @media only screen and (max-width: 650px) {
+ @media only screen and (max-width: 950px) {
 
     body{
         overflow-x: hidden;
@@ -295,14 +296,15 @@ div.header-text-section{
 .infogrid {
     display: grid;
     /* grid-template-columns: repeat(2,1fr); */
-    grid-template-columns: auto ;
+    grid-template-columns: repeat(auto-fill,
+    minmax(300px, 1fr));
     /* gap: 1; */
     grid-gap: 20px;
     margin: 1cm;
     position: relative;
     top: 100px;
     /* bottom: 0px; */
-    left: 0px;
+    left: -15px;
     text-align: left;
     
 }
