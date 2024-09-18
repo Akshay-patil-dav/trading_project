@@ -1,28 +1,28 @@
-
-
 .Explore{
-    width: 302px;
-    height: 55px;
+    width: 15.7292vw;
+    height: 2.8646vw;
     position: absolute;
-    font-size: 20px;
+    font-size: 1.0417vw;
     border: 0.2vw solid;
     background-color: transparent;
     color: white;
-    top: 522px;
-    left: 150px;
+    top: 27.1875vw;
+    left: 7.8125vw;
 }
 .Explore:hover{
     background-color: white;
     color: black;
 }
 
+
 .play-butt{
     position: absolute;
     right: 7%;
-    top: 518px;
+    top: 26.9792vw;
     bottom: 6.042vw;
     display: flex;
 }
+
 #video-click{
     width: 2.813vw;
     height: 2.813vw;
@@ -32,42 +32,11 @@
 }
 .Play{
     width: 5.313vw;
-    height: 40px;
+    height: 2.0833vw;
     margin: 0.8vw;
     /* background-color: red; */
     text-align: center;
     text-decoration: none;
     color: white;
     font-size: 0.938vw;
-}
-
-@media only screen and (max-width: 650px) {
-
-    .play-butt{
-        position: absolute;
-        right: 100px;
-        top: 530px;
-        /* bottom: 6.042vw; */
-        display: flex;
-    }
-#video-click{
-    width: 50px;
-    height: 50px;
-    border: 0vw solid;
-    background-color: #70DA44;
-    border-radius: 100%;
-}
-.Play{
-    position: relative;
-    top: 10px;
-    width:100px ;
-    /* background-color: red; */
-    height: 40px;
-    margin: 1vw;
-    /* background-color: red; */
-    text-align: center;
-    text-decoration: none;
-    color: white;
-    font-size: 0.5cm;
-}
 }
