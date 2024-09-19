@@ -182,11 +182,11 @@ div.header-text-section{
 .Reports-header{
     /* background-color: red; */
     position: relative;
-    top: 57px;
+    top: 2.9688vw;
     /* font-family: Arial black; */
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     width: 100%;
-    height: 95px;
+    height: 4.9479vw;
     font-size: 3.3333vw;
     text-align: center;
     color: #13416A;
@@ -378,6 +378,82 @@ div.header-text-section{
     /* margin: 0.1vw; */
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
 }
+
+
+/* ************************************************************************************** */
+
+#topic1{
+    color: black;
+    font-size: 0.8333vw;
+    /* background-color: blue; */
+    width: 19vw;
+    font-family: Arial black;
+}
+#Industry{
+    color: black;
+    font-size: 0.8333vw;
+    font-family: Arial black;
+}
+
+#text_bios{
+    color: black;
+    width: 23.7500vw;
+    height:3.4375vw;
+    font-size: 0.7292vw;
+    position: relative;
+    top: 0.4vw;
+}
+#view ,.Published{
+    font-size: 0.6250vw;
+}
+
+#view{
+    position: relative;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    left: 2vw;
+}
+.redmore{
+    font-size: 0.6250vw;
+    color: #667085;
+    background-color: #F0F1F3;
+    border: 0vw solid;
+    border-radius: 0.7813vw;
+    position: relative;
+    left: 3vw;
+}
+.box-info-Trending{
+    background-color: #FFFFFF;
+    /* background-color: red; */
+    width: 30.2083vw;
+    height: 10.1563vw;
+    /* width: 5vw; */
+    box-shadow: 10px 10px 50px 12px #19191914;
+}
+
+
+.Trending1 {
+    display: grid;
+    /* grid-template-columns: repeat(2,1fr); */
+    grid-template-columns: auto auto;
+    /* gap: 1; */
+    width: 2.6042vw;
+    grid-gap: 7.0417vw;
+    margin: 9.3750vw;
+    position: relative;
+    bottom: 1.0417vw;
+    top: 0vw;
+    left: 5.7292vw;
+    text-align: left;
+    /* background-color: red; */
+    
+}
+.Trending{
+    margin: 1vw;
+    position: relative;
+    left: 1vw;
+}
+
+
 
    /* *************************************************************** */
 @media only screen and (max-width: 980px) {
@@ -859,5 +935,88 @@ div.header-text-section{
 }
 
    /* *************************************************************** */
+
+   
+#topic1{
+    color: black;
+    font-size: 3.8333vw;
+    /* background-color: blue; */
+    width: 39vw;
+
+    font-family: Arial black;
+}
+#Industry{
+    color: black;
+    font-size: 2.8333vw;
+    font-family: Arial black;
+}
+
+#text_bios{
+    color: black;
+    width: 60.7500vw;
+    /* background-color: #113456; */
+    height:3.4375vw;
+    font-size: 2.7292vw;
+    position: relative;
+    top: 0.2vw;
+}
+#view ,.Published{
+    font-size: 2.6250vw;
+}
+.text-doun{
+    position: relative;
+    top: 15vw;
+}
+#view{
+    position: relative;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    left: 2vw;
+}
+.redmore{
+    font-size: 2.6250vw;
+    color: #667085;
+    background-color: #F0F1F3;
+    border: 0vw solid;
+    border-radius: 0.7813vw;
+    position: relative;
+    left: 3vw;
+}
+
+
+/* *************************************** */
+.box-info-Trending{
+    /* background-color: #FFFFFF; */
+    /* background-color: red; */
+    width: 70.2083vw;
+    height: 55.1563vw;
+    /* width: 5vw; */
+    box-shadow: 10px 10px 50px 12px #19191914;
+}
+/* **************************** */
+
+
+.Trending1 {
+    display: grid;
+    /* grid-template-columns: repeat(2,1fr); */
+    grid-template-columns: auto ;
+    /* gap: 1; */
+    width: 2.6042vw;
+    grid-gap: 7.0417vw;
+    margin: 9.3750vw;
+    position: relative;
+    bottom: 1.0417vw;
+    top: 20vw;
+    left: 5.7292vw;
+    text-align: left;
+    /* background-color: red; */
+    
+}
+.Trending{
+    margin: 5vw;
+    position: relative;
+    left: 1vw;
+}
+
+
 
 }
