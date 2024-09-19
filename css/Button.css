@@ -40,3 +40,17 @@
     color: white;
     font-size: 0.938vw;
 }
+
+#view-reports{
+    width: 10.9375vw;
+    height: 2.7604vw;
+    font-size: 0.8333vw;
+    border: 0vw solid;
+    color: white;
+    background-color: #113456;
+    position: relative;
+    left: 28.4375vw;
+    bottom: 2vw;
+    border-radius: 0.5208vw;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}

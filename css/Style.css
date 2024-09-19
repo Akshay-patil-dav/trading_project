@@ -1017,6 +1017,20 @@ div.header-text-section{
     left: 1vw;
 }
 
+/* *******************butt***************** */
 
+#view-reports{
+    width: 25.9375vw;
+    height: 5.7604vw;
+    font-size: 2.8333vw;
+    border: 0vw solid;
+    color: white;
+    background-color: #113456;
+    position: relative;
+    left: 22.4375vw;
+    bottom: 2vw;
+    border-radius: 0.5208vw;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
 
 }
