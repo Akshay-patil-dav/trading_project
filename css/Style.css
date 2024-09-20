@@ -1112,7 +1112,7 @@ div.header-text-section{
     position: relative;
     top: 0vw;
     background-color: #F2F2F2;
-    width: 772px;
+    width: 822px;
     border-radius: 16px;
     border: 0vw solid;
     height: 49px;
@@ -1128,7 +1128,8 @@ div.header-text-section{
     position: relative;
     top: 18vw;
     overflow: auto;
-    width: 100%;
+    overflow-y: hidden;
+    width: 98%;
     /* height: 2vw; */
     /* background-color: red; */
     height: 49px;
@@ -1150,6 +1151,7 @@ div.header-text-section{
 .filter-btn{
     border: 0vw solid;
  
+
     background-color: transparent;
     color: #9A9898;
     border-radius: 16px;
@@ -1158,9 +1160,12 @@ div.header-text-section{
     font-size: 10px;
     position: relative;
     height: 33px;
-    top: 0.6vw;
+    top: 2vw;
     /* bottom: 0.vw; */
     right: 7px;
+}
+.n1{
+    width: 106px;
 }
 .n2{
     width: 146px;
