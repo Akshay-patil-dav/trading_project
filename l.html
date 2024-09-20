@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Filter Information</title>
+  <style>
+    .info-box {
+      border: 1px solid #ccc;
+      padding: 20px;
+      margin: 10px 0;
+      border-radius: 5px;
+      display: none; /* Hide all initially */
+    }
+    .info-box.show {
+      display: block;
+    }
+    /* Styling for filter buttons */
+    .filter-btn {
+      padding: 10px 15px;
+      margin: 5px;
+      cursor: pointer;
+      background-color: #007bff;
+      color: white;
+      border: none;
+      border-radius: 5px;
+    }
+    .filter-btn.active {
+      background-color: #0056b3;
+    }
+  </style>
+</head>
+<body>
+
+  <h2>Filter Information Boxes by Type</h2>
+
+  <!-- Filter buttons -->
+  <div id="filterContainer">
+    <button class="filter-btn active" data-filter="all">All</button>
+    <button class="filter-btn" data-filter="news">News</button>
+    <button class="filter-btn" data-filter="alerts">Alerts</button>
+    <button class="filter-btn" data-filter="messages">Messages</button>
+  </div>
+
+  <!-- Information Boxes -->
+  <div class="info-box" data-type="news">
+    <h4>News Item 1</h4>
+    <p>This is a news item.</p>
+  </div>
+  <div class="info-box" data-type="alerts">
+    <h4>Alert Item 1</h4>
+    <p>This is an alert item.</p>
+  </div>
+  <div class="info-box" data-type="messages">
+    <h4>Message Item 1</h4>
+    <p>This is a message item.</p>
+  </div>
+  <div class="info-box" data-type="news">
+    <h4>News Item 2</h4>
+    <p>This is another news item.</p>
+  </div>
+  <div class="info-box" data-type="alerts">
+    <h4>Alert Item 2</h4>
+    <p>This is another alert item.</p>
+  </div>
+  <div class="info-box" data-type="messages">
+    <h4>Message Item 2</h4>
+    <p>This is another message item.</p>
+  </div>
+
+  <script>
+    // JavaScript for filtering
+    document.addEventListener('DOMContentLoaded', function() {
+      const filterButtons = document.querySelectorAll('.filter-btn');
+      const infoBoxes = document.querySelectorAll('.info-box');
+
+      // Show all boxes initially
+      filterItems('all');
+
+      filterButtons.forEach(button => {
+        button.addEventListener('click', function() {
+          // Remove active class from all buttons
+          filterButtons.forEach(btn => btn.classList.remove('active'));
+          
+          // Add active class to clicked button
+          this.classList.add('active');
+          
+          // Filter items
+          const filterValue = this.getAttribute('data-filter');
+          filterItems(filterValue);
+        });
+      });
+
+      function filterItems(type) {
+        infoBoxes.forEach(box => {
+          // Show all if filter is 'all'
+          if (type === 'all' || box.getAttribute('data-type') === type) {
+            box.classList.add('show');
+          } else {
+            box.classList.remove('show');
+          }
+        });
+      }
+    });
+  </script>
+</body>
+</html>

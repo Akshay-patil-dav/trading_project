@@ -1,0 +1,48 @@
+#myTab{
+    position: relative;
+    top: 5vw;
+    background-color: #F2F2F2;
+    width: 772px;
+    border-radius: 16px;
+    border: 0vw solid;
+    height: 49px;
+    left: 527px;
+}
+.top-nav-men-reports{
+    display: flex;
+}
+.nav-item1{
+    background-color: transparent;
+    display: flex;
+    margin: -0.2vw;
+    
+}
+.show{
+    background-color: transparent;
+}
+
+.filter-btn{
+    border: 0vw solid;
+ 
+    background-color: transparent;
+    color: #9A9898;
+    border-radius: 16px;
+    /* padding: 0.5vw; */
+    width: 5vw;
+    font-size: 10px;
+    position: relative;
+    height: 33px;
+    top: 0.6vw;
+    /* bottom: 0.vw; */
+    right: 7px;
+}
+.n2{
+    width: 146px;
+}
+.n3{
+    width: 140px;
+}
+.filter-btn.active {
+    background-color: #153C66;
+    color: white;
+  }

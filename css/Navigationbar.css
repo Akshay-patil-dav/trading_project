@@ -34,19 +34,47 @@
     height:1.9792vw;
     background-color: transparent;
      color: white;
-     border: 0.1vw solid;
+     border: 0vw solid;
     font-size: 0.7292vw;
     position: relative;
-    right: 9.3750vw;
+    /* right: 9.3750vw; */
+    /* left: vw; */
     border-radius: 0.5vw;
     display: grid;
+    border: none; /* Removes the entire border */
+    /* or */
+    border-color: transparent; /* Makes the border color transparent */
+    outline: none; /* Removes the outline if focused */
 
     /* margin: vw; */
     /* background-color: transparent */
 }
 
+.serch-box{
+    width: 13.6979vw;
+    height:1.9792vw;
+    background-color: transparent;
+     color: white;
+     border: 0.1vw solid;
+    font-size: 0.7292vw;
+    position: relative;
+    right: 9.3750vw;
+    border-radius: 0.5vw;
+    display: flex;
+}
 
+.search-icon{
+    color: white;
+   margin: 0.4vw;
+}
 /* .form-control{
     background-color: ;
     font-size: 0.7292vw;
 } */
+
+input[type="search"] {
+    border: none; /* Removes the entire border */
+    /* or */
+    border-color: transparent; /* Makes the border color transparent */
+    outline: none; /* Removes the outline if focused */
+}

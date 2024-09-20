@@ -1,4 +1,5 @@
 @import url("./Navigationbar.css");
+@import url("./table.css");
 
 
 body {
@@ -227,6 +228,7 @@ div.header-text-section{
     /* padding: 0vw; */
     /* width: 9vw; */
     background-color: #153C66;
+    color: white;
     padding: 0.2vw;
     width: 5vw;
     position: relative;
@@ -237,6 +239,7 @@ div.header-text-section{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
     text-align: center;
     cursor: pointer;
+    border: 0vw solid;
    
     /* margin: 0.1vw; */
 }
@@ -247,19 +250,22 @@ div.header-text-section{
     /* background-color: #153C66; */
     padding: 0.2vw;
     width: 9vw;
+    color: #9A9898;
     position: relative;
     bottom: 0.3vw;
     border-radius: 1vw;
     height: 1.7188vw;
     text-align: center;
     cursor: pointer;
-    color: #9A9898;
+    /* color: transparent; */
     /* margin: 0.1vw; */
+ 
     font-size: 0.7292vw;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+    border: 0vw solid;
 }
 
-.text-li1:hover{
+.text-li1:focus{
     background-color: #153C66;
     color: white;
 }
@@ -305,6 +311,7 @@ div.header-text-section{
     color: #9A9898;
     font-size: 0.7292vw;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+    border: 0vw solid;
 }
 .text-li3{
     /* background-color: red; */
@@ -323,6 +330,7 @@ div.header-text-section{
     font-size: 0.7292vw;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
     color: #9A9898;
+    border: 0vw solid;
 }
 .text-li4{
     /* background-color: red; */
@@ -341,6 +349,7 @@ div.header-text-section{
     color: #9A9898;
     font-size: 0.7292vw;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+    border: 0vw solid;
 }
 .text-li5{
     /* background-color: red; */
@@ -359,6 +368,7 @@ div.header-text-section{
     color: #9A9898;
     font-size: 0.7292vw;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+    border: 0vw solid;
 }
 .text-li6{
     /* background-color: red; */
@@ -377,6 +387,7 @@ div.header-text-section{
     font-size: 0.7292vw;
     /* margin: 0.1vw; */
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+    border: 0vw solid;
 }
 
 
@@ -437,7 +448,7 @@ div.header-text-section{
     grid-template-columns: auto auto;
     /* gap: 1; */
     width: 2.6042vw;
-    grid-gap: 7.0417vw;
+    grid-gap: 3vw;
     margin: 9.3750vw;
     position: relative;
     bottom: 1.0417vw;
@@ -452,8 +463,66 @@ div.header-text-section{
     position: relative;
     left: 1vw;
 }
+/* ********************************************* */
+.Industry-Press{
 
+    display: grid;
+    /* grid-template-columns: repeat(2,1fr); */
+    grid-template-columns: auto auto;
+    /* gap: 1; */
+    width: 2.6042vw;
+    grid-gap: 69px  ;
+    margin: 9.3750vw;
+    position: relative;
+    bottom: 1.0417vw;
+    /* top: 0vw; */
+    bottom: 3vw;
+    left: 1.7292vw;
+    text-align: left;
 
+  
+}
+.Industry{
+    background-color: red;
+    width: 698px;
+    height: auto;
+}
+
+.Press{
+    background-color: rgb(76, 180, 35);
+    width: 698px;
+    height: 20vw;
+}
+
+.box1{
+    background-color: rgb(8, 77, 8);
+    width: 698px;
+    height: 17px;
+}
+.box2{
+    background-color: wheat;
+    width: 698px;
+    height: 97px;
+}
+.headertext-Industry{
+    position: relative;
+    left: 14px;
+    top: 24px;
+    font-size: 36px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.box3{
+    background-color: blue;
+    position: relative;
+    top: 18px;
+    width: 698px;
+    height: 657px;
+}
+.box3-ul{
+    position: relative;
+    /* top: ; */
+}
 
    /* *************************************************************** */
 @media only screen and (max-width: 980px) {
