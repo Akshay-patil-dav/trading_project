@@ -1129,13 +1129,14 @@ div.header-text-section{
     top: 18vw;
     overflow: auto;
     overflow-y: hidden;
-    width: 98%;
+    width: 90%;
     /* height: 2vw; */
     /* background-color: red; */
     height: 49px;
     white-space:nowrap;
     margin: 1vw;
     border-radius: 16px;
+    left: 4vw;
 
 }
 .nav-item1{
