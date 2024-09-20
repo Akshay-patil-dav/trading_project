@@ -445,10 +445,12 @@ div.header-text-section{
 .Trending1 {
     display: grid;
     /* grid-template-columns: repeat(2,1fr); */
-    grid-template-columns: auto auto;
+    /* grid-template-columns: auto auto ; */
+    grid-template-columns: repeat(2,1fr);
     /* gap: 1; */
     width: 2.6042vw;
     grid-gap: 3vw;
+    /* gap: 1; */
     margin: 9.3750vw;
     position: relative;
     bottom: 1.0417vw;
@@ -1058,6 +1060,7 @@ div.header-text-section{
     /* background-color: red; */
     width: 70.2083vw;
     height: 55.1563vw;
+    
     /* width: 5vw; */
     box-shadow: 10px 10px 50px 12px #19191914;
 }
@@ -1101,5 +1104,74 @@ div.header-text-section{
     border-radius: 0.5208vw;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
+
+
+
+/* ***************************************************** */
+#myTab{
+    position: relative;
+    top: 0vw;
+    background-color: #F2F2F2;
+    width: 772px;
+    border-radius: 16px;
+    border: 0vw solid;
+    height: 49px;
+
+    left: 0px;
+}
+.top-nav-men-reports{
+    display: flex;
+
+}
+
+.overhide{
+    position: relative;
+    top: 18vw;
+    overflow: auto;
+    width: 100%;
+    /* height: 2vw; */
+    /* background-color: red; */
+    height: 49px;
+    white-space:nowrap;
+    margin: 1vw;
+    border-radius: 16px;
+
+}
+.nav-item1{
+    background-color: transparent;
+    display: flex;
+    margin: -0.2vw;
+    
+}
+.show{
+    background-color: transparent;
+}
+
+.filter-btn{
+    border: 0vw solid;
+ 
+    background-color: transparent;
+    color: #9A9898;
+    border-radius: 16px;
+    /* padding: 0.5vw; */
+    width: 5vw;
+    font-size: 10px;
+    position: relative;
+    height: 33px;
+    top: 0.6vw;
+    /* bottom: 0.vw; */
+    right: 7px;
+}
+.n2{
+    width: 146px;
+}
+.n3{
+    width: 140px;
+}
+.filter-btn.active {
+    background-color: #153C66;
+    color: white;
+  }
+
 
 }
