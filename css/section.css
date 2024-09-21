@@ -1,0 +1,186 @@
+.sections{
+    
+    position: relative;
+    bottom: 5vw;
+    left:9.3750vw ;
+    display: grid;
+    /* grid-template-columns: repeat(2,1fr); */
+    /* grid-template-columns: auto auto ; */
+    grid-template-columns: repeat(2,1fr);
+    /* gap: 1; */
+    width: 2.6042vw;
+    grid-gap: 3vw;
+}
+
+.green{
+    background-color: green;
+    width: 36.3542vw;
+    height: 0.8854vw;
+}
+.box1-selct{
+    background-color: #F3F3F3;
+    width: 36.3542vw;
+    height: 5.0521vw;
+}
+
+
+.Blogs{
+    font-size: 1.9792vw;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        position: relative;
+        top: 1.4583vw;
+        left: 2.1354vw;
+        color: #4CAA26;
+}
+
+/* .box2-ul{
+    position: relative;
+    top: 56px;
+} */
+
+.box2-li{
+    display: flex;
+   
+}
+.box1-col{
+ position: relative;
+    top: 2.9167vw;
+}
+.box2-selct{
+    position: relative;
+    /* top: 18px; */
+    background-color: #F3F3F3;
+    width: 36.3542;
+    height: 34.2188vw;
+}
+
+.box-text1{
+    display: flex;
+}
+.box-t1{
+    background-color: #65C73D;
+    font-size: 1.25vw;
+    /* padding: 0.2vw; */
+    text-align: center;
+    color: white;
+
+
+    width: 2.3438vw;
+    height: 2.0833vw;
+   
+}
+
+.box-t2{
+    background-color: rgba(101, 199, 61, 0.30);
+    font-size: 1.25vw;
+    color: white;
+    text-align: center;
+    width: 5vw;
+    height: 2.0833vw;
+
+}
+
+.bios-box2{
+    /* padding: 1vw; */
+    position: relative;
+    top: 0.5vw;
+    /* background-color: red; */
+    text-align: left;
+    width: 32.2917vw;
+    font-size: 0.7292vw;
+}
+
+.View-butt-box2{
+    font-size: 0.8333vw;
+    padding: 0.5vw;
+    border: 0.1vw  solid;
+    width: 7.0833vw;
+    text-align: center;
+    border-radius: 0.5208vw;
+    text-decoration: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #3C811F;
+    position: relative;
+    top: 5vw;
+}
+
+
+.blue{
+    background-color: #113456;
+}
+.bluetext{
+    color: #113456;
+}
+.bluetext2{
+    background-color: rgba(17, 52, 86, 0.30);
+}
+/* ********************************************* */
+.Consulting-Services{
+    background-color: #113456;
+    width: 100%;
+    height: 13.3333vw;
+}
+.Consulting{
+    position: relative;
+    top: 2.3438vw;
+    margin: 1vw;
+    color: white;
+    /* background-color: red; */
+
+    font-size:  2.0833vw;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    width: 87.7083vw;
+    left: 2vw;
+    text-align: center;
+}
+
+.Growth{
+    font-size: 1.25vw;
+    width: 100%;
+    
+    /* font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; */
+    width: 87.7083vw;
+    left: 2vw;
+    text-align: center;
+    position: relative;
+    top: 1.5625vw;
+    color: white;
+}
+
+.Quote-contact-us{
+    position: relative;
+    top: 1.8229vw;
+    left: 34.4792vw;
+}
+
+.Quote{
+    width: 11.7188vw;
+    height: 2.8125vw;
+    font-size: 0.9375vw;
+    border: 0vw solid;
+    border-radius: 0.5208vw;
+    /* font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; */
+}
+
+.contact-us{
+    width: 9.1667vw;
+    height: 2.8125vw;
+    /* font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; */
+    font-size: 0.9375vw;
+    border: 0vw solid;
+    border-radius: 0.5208vw;
+    position: relative;
+    left: 3vw;
+}
+
+.Service{
+    font-size: 64px;
+    /* background-color: red; */
+    color:  hsla(210, 67%, 20%, 1);
+    font-family: Arial black;
+    width: 90%;
+    text-align: center;
+    position: relative;
+    top: 78px;
+    left: 50px;
+}

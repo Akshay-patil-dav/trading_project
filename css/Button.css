@@ -49,8 +49,8 @@
     color: white;
     background-color: #113456;
     position: relative;
-    left: 28.4375vw;
-    bottom: 2vw;
+    left: 26.4375vw;
+    /* bottom: 2vw; */
     border-radius: 0.5208vw;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }

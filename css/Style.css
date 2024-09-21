@@ -1,6 +1,6 @@
 @import url("./Navigationbar.css");
 @import url("./table.css");
-
+@import url("./section.css");
 
 body {
     font-family: Arial, sans-serif;
@@ -178,7 +178,7 @@ div.header-text-section{
 .Reports{
     /* background-color: #70DA44; */
     width: 100%;
-    height: 91.9792vw;
+    height: 95.9792vw;
 }
 .Reports-header{
     /* background-color: red; */
@@ -466,65 +466,6 @@ div.header-text-section{
     left: 1vw;
 }
 /* ********************************************* */
-.Industry-Press{
-
-    display: grid;
-    /* grid-template-columns: repeat(2,1fr); */
-    grid-template-columns: auto auto;
-    /* gap: 1; */
-    width: 2.6042vw;
-    grid-gap: 69px  ;
-    margin: 9.3750vw;
-    position: relative;
-    bottom: 1.0417vw;
-    /* top: 0vw; */
-    bottom: 3vw;
-    left: 1.7292vw;
-    text-align: left;
-
-  
-}
-.Industry{
-    background-color: red;
-    width: 698px;
-    height: auto;
-}
-
-.Press{
-    background-color: rgb(76, 180, 35);
-    width: 698px;
-    height: 20vw;
-}
-
-.box1{
-    background-color: rgb(8, 77, 8);
-    width: 698px;
-    height: 17px;
-}
-.box2{
-    background-color: wheat;
-    width: 698px;
-    height: 97px;
-}
-.headertext-Industry{
-    position: relative;
-    left: 14px;
-    top: 24px;
-    font-size: 36px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-}
-
-.box3{
-    background-color: blue;
-    position: relative;
-    top: 18px;
-    width: 698px;
-    height: 657px;
-}
-.box3-ul{
-    position: relative;
-    /* top: ; */
-}
 
    /* *************************************************************** */
 @media only screen and (max-width: 980px) {

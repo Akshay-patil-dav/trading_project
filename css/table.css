@@ -2,11 +2,11 @@
     position: relative;
     top: 5vw;
     background-color: #F2F2F2;
-    width: 772px;
+    width: 40.2083vw;
     border-radius: 16px;
     border: 0vw solid;
-    height: 49px;
-    left: 527px;
+    height: 2.5521vw;
+    left: 27.4479vw;
 }
 .top-nav-men-reports{
     display: flex;
@@ -26,23 +26,40 @@
  
     background-color: transparent;
     color: #9A9898;
-    border-radius: 16px;
+    border-radius: 0.8333vw;
     /* padding: 0.5vw; */
     width: 5vw;
-    font-size: 10px;
+    font-size: 0.5208vw;
     position: relative;
-    height: 33px;
+    height: 1.7188vw;
     top: 0.6vw;
     /* bottom: 0.vw; */
     right: 7px;
 }
 .n2{
-    width: 146px;
+    width: 7.6042vw;
 }
 .n3{
-    width: 140px;
+    width: 7.2917vw;
 }
 .filter-btn.active {
     background-color: #153C66;
     color: white;
   }
+
+
+
+  .partner-slider .my-slider {
+    margin: 0;
+}
+
+.partner-slider .my-slider .slick-slide {
+    margin: 0vw 1.5625vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+/* ************************************************************ */
