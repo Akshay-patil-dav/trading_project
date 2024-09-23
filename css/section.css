@@ -173,14 +173,3 @@
     left: 3vw;
 }
 
-.Service{
-    font-size: 64px;
-    /* background-color: red; */
-    color:  hsla(210, 67%, 20%, 1);
-    font-family: Arial black;
-    width: 90%;
-    text-align: center;
-    position: relative;
-    top: 78px;
-    left: 50px;
-}

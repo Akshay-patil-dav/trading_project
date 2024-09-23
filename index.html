@@ -11,7 +11,9 @@
   <link rel="stylesheet" href="./css/Style.css">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-
+    <script src=
+    "https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js">
+        </script>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
 </head>
@@ -58,16 +60,18 @@
 
           </li>
         </ul>
-      </ul>
-      <form class="d-flex" role="search">
-        <div class="serch-box">
-          <div class="search-icon"><svg xmlns="http://www.w3.org/2000/svg" style="width: 1vw; "  fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
-            <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001q.044.06.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1 1 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0"/>
-          </svg></div>
-        <input class="serch" type="search" placeholder="Search" aria-label="Search">
-        <!-- <button class="btn btn-outline-success" type="submit">Search</button> -->
-         </div>
-      </form>
+        </ul>
+        <form class="d-flex" role="search">
+          <div class="serch-box">
+            <div class="search-icon"><svg xmlns="http://www.w3.org/2000/svg" style="width: 1vw; " fill="currentColor"
+                class="bi bi-search" viewBox="0 0 16 16">
+                <path
+                  d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001q.044.06.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1 1 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0" />
+              </svg></div>
+            <input class="serch" type="search" placeholder="Search" aria-label="Search">
+            <!-- <button class="btn btn-outline-success" type="submit">Search</button> -->
+          </div>
+        </form>
       </div>
     </div>
   </nav>
@@ -172,877 +176,962 @@
       Trending Reports by Industries
     </div>
     <!-- ******************** -->
-     <div class="overhide">
-    <ul class="top-nav-men-reports" id="myTab" role="tablist">
-      <li class="nav-item nav-item1" role="presentation">
-        <button class="filter-btn n1 active" id="home-tab" data-bs-toggle="tab" data-bs-target="#Healthcare" type="button" role="tab" aria-controls="Healthcare" aria-selected="true">Healthcare</button>
-      </li>
-      <li class="nav-item nav-item1" role="presentation">
-        <button class="filter-btn n2" id="profile-tab" data-bs-toggle="tab" data-bs-target="#Information&Technology" type="button" role="tab" aria-controls="profile" aria-selected="false">Information & Technology</button>
-      </li>
-      <li class="nav-item nav-item1" role="presentation">
-        <button class="filter-btn n2" id="contact-tab" data-bs-toggle="tab" data-bs-target="#Machinery&Equipment" type="button" role="tab" aria-controls="contact" aria-selected="false">Machinery & Equipment</button>
-      </li>
-      <li class="nav-item nav-item1" role="presentation">
-        <button class="filter-btn n3" id="contact-tab" data-bs-toggle="tab" data-bs-target="#Food&Beverages" type="button" role="tab" aria-controls="contact" aria-selected="false">Food & Beverages</button>
-      </li>
-      <li class="nav-item nav-item1" role="presentation">
-        <button class="filter-btn n3" id="contact-tab" data-bs-toggle="tab" data-bs-target="#Energy&Power" type="button" role="tab" aria-controls="contact" aria-selected="false">Energy & Power</button>
-      </li>
-      <li class="nav-item nav-item1" role="presentation">
-        <button class="filter-btn n1" id="contact-tab" data-bs-toggle="tab" data-bs-target="#Agriculture" type="button" role="tab" aria-controls="contact" aria-selected="false">Agriculture</button>
-      </li>
+    <div class="overhide">
+      <ul class="top-nav-men-reports" id="myTab" role="tablist">
+        <li class="nav-item nav-item1" role="presentation">
+          <button class="filter-btn n1 active" id="home-tab" data-bs-toggle="tab" data-bs-target="#Healthcare"
+            type="button" role="tab" aria-controls="Healthcare" aria-selected="true">Healthcare</button>
+        </li>
+        <li class="nav-item nav-item1" role="presentation">
+          <button class="filter-btn n2" id="profile-tab" data-bs-toggle="tab" data-bs-target="#Information&Technology"
+            type="button" role="tab" aria-controls="profile" aria-selected="false">Information & Technology</button>
+        </li>
+        <li class="nav-item nav-item1" role="presentation">
+          <button class="filter-btn n2" id="contact-tab" data-bs-toggle="tab" data-bs-target="#Machinery&Equipment"
+            type="button" role="tab" aria-controls="contact" aria-selected="false">Machinery & Equipment</button>
+        </li>
+        <li class="nav-item nav-item1" role="presentation">
+          <button class="filter-btn n3" id="contact-tab" data-bs-toggle="tab" data-bs-target="#Food&Beverages"
+            type="button" role="tab" aria-controls="contact" aria-selected="false">Food & Beverages</button>
+        </li>
+        <li class="nav-item nav-item1" role="presentation">
+          <button class="filter-btn n3" id="contact-tab" data-bs-toggle="tab" data-bs-target="#Energy&Power"
+            type="button" role="tab" aria-controls="contact" aria-selected="false">Energy & Power</button>
+        </li>
+        <li class="nav-item nav-item1" role="presentation">
+          <button class="filter-btn n1" id="contact-tab" data-bs-toggle="tab" data-bs-target="#Agriculture"
+            type="button" role="tab" aria-controls="contact" aria-selected="false">Agriculture</button>
+        </li>
 
-    </ul></div>
+      </ul>
+    </div>
     <div class="tab-content" id="myTabContent">
       <div class="tab-pane  show active" id="Healthcare" role="tabpanel" aria-labelledby="home-tab">
-<!-- ****************************************************** -->
-<div class="Trending1">
+        <!-- ****************************************************** -->
+        <div class="Trending1">
 
-  <!-- ************************************************* -->
-  <div class="box-info-Trending">
-    <div class="Trending">
-      <div style="display: flex;">
-        <h4 id="topic1">Discover Growth Opportunities</h4>
-        <h4 id="Industry">Industry</h4>
-      </div>
-      <p id="text_bios">
-        At Fortune Business Insights, we cover both niche and established markets. We identify growth
-        opportunities across these markets, irrespective of their age.
-      </p>
-      <div style="color: black; display: flex;" class="text-doun">
-        <div class="Published">
-          <b> Published Date:</b> <b id="date"></b>
-        </div>
-        <div id="view">
-          4,850.00
-        </div>
-        <button class="redmore">Read More</button>
-      </div>
-      <div>
-      </div>
-    </div>
-  </div>
-  <!-- ***************************************************** -->
+          <!-- ************************************************* -->
+          <div class="box-info-Trending">
+            <div class="Trending">
+              <div style="display: flex;">
+                <h4 id="topic1">Discover Growth Opportunities</h4>
+                <h4 id="Industry">Industry</h4>
+              </div>
+              <p id="text_bios">
+                At Fortune Business Insights, we cover both niche and established markets. We identify growth
+                opportunities across these markets, irrespective of their age.
+              </p>
+              <div style="color: black; display: flex;" class="text-doun">
+                <div class="Published">
+                  <b> Published Date:</b> <b id="date"></b>
+                </div>
+                <div id="view">
+                  4,850.00
+                </div>
+                <button class="redmore">Read More</button>
+              </div>
+              <div>
+              </div>
+            </div>
+          </div>
+          <!-- ***************************************************** -->
 
-  <!-- ************************************************* -->
-  <div class="box-info-Trending">
-    <div class="Trending">
-      <div style="display: flex;">
-        <h4 id="topic1">Discover Growth Opportunities</h4>
-        <h4 id="Industry">Industry</h4>
-      </div>
-      <p id="text_bios">
-        At Fortune Business Insights, we cover both niche and established markets. We identify growth
-        opportunities across these markets, irrespective of their age.
-      </p>
-      <div style="color: black; display: flex;" class="text-doun">
-        <div class="Published">
-          <b> Published Date:</b> <b id="date2"></b>
-        </div>
-        <div id="view">
-          4,850.00
-        </div>
-        <button class="redmore">Read More</button>
-      </div>
-      <div>
-      </div>
-    </div>
-  </div>
-  <!-- ***************************************************** -->
+          <!-- ************************************************* -->
+          <div class="box-info-Trending">
+            <div class="Trending">
+              <div style="display: flex;">
+                <h4 id="topic1">Discover Growth Opportunities</h4>
+                <h4 id="Industry">Industry</h4>
+              </div>
+              <p id="text_bios">
+                At Fortune Business Insights, we cover both niche and established markets. We identify growth
+                opportunities across these markets, irrespective of their age.
+              </p>
+              <div style="color: black; display: flex;" class="text-doun">
+                <div class="Published">
+                  <b> Published Date:</b> <b id="date2"></b>
+                </div>
+                <div id="view">
+                  4,850.00
+                </div>
+                <button class="redmore">Read More</button>
+              </div>
+              <div>
+              </div>
+            </div>
+          </div>
+          <!-- ***************************************************** -->
 
-  <!-- ************************************************* -->
-  <div class="box-info-Trending">
-    <div class="Trending">
-      <div style="display: flex;">
-        <h4 id="topic1">Discover Growth Opportunities</h4>
-        <h4 id="Industry">Industry</h4>
-      </div>
-      <p id="text_bios">
-        At Fortune Business Insights, we cover both niche and established markets. We identify growth
-        opportunities across these markets, irrespective of their age.
-      </p>
-      <div style="color: black; display: flex;" class="text-doun">
-        <div class="Published">
-          <b> Published Date:</b> <b id="date3"></b>
-        </div>
-        <div id="view">
-          4,850.00
-        </div>
-        <button class="redmore">Read More</button>
-      </div>
-      <div>
-      </div>
-    </div>
-  </div>
-  <!-- ***************************************************** -->
+          <!-- ************************************************* -->
+          <div class="box-info-Trending">
+            <div class="Trending">
+              <div style="display: flex;">
+                <h4 id="topic1">Discover Growth Opportunities</h4>
+                <h4 id="Industry">Industry</h4>
+              </div>
+              <p id="text_bios">
+                At Fortune Business Insights, we cover both niche and established markets. We identify growth
+                opportunities across these markets, irrespective of their age.
+              </p>
+              <div style="color: black; display: flex;" class="text-doun">
+                <div class="Published">
+                  <b> Published Date:</b> <b id="date3"></b>
+                </div>
+                <div id="view">
+                  4,850.00
+                </div>
+                <button class="redmore">Read More</button>
+              </div>
+              <div>
+              </div>
+            </div>
+          </div>
+          <!-- ***************************************************** -->
 
-  <!-- ************************************************* -->
-  <div class="box-info-Trending">
-    <div class="Trending">
-      <div style="display: flex;">
-        <h4 id="topic1">Discover Growth Opportunities</h4>
-        <h4 id="Industry">Industry</h4>
-      </div>
-      <p id="text_bios">
-        At Fortune Business Insights, we cover both niche and established markets. We identify growth
-        opportunities across these markets, irrespective of their age.
-      </p>
-      <div style="color: black; display: flex;" class="text-doun">
-        <div class="Published">
-          <b> Published Date:</b> <b id="date4"></b>
-        </div>
-        <div id="view">
-          4,850.00
-        </div>
-        <button class="redmore">Read More</button>
-      </div>
-      <div>
-      </div>
-    </div>
-  </div>
+          <!-- ************************************************* -->
+          <div class="box-info-Trending">
+            <div class="Trending">
+              <div style="display: flex;">
+                <h4 id="topic1">Discover Growth Opportunities</h4>
+                <h4 id="Industry">Industry</h4>
+              </div>
+              <p id="text_bios">
+                At Fortune Business Insights, we cover both niche and established markets. We identify growth
+                opportunities across these markets, irrespective of their age.
+              </p>
+              <div style="color: black; display: flex;" class="text-doun">
+                <div class="Published">
+                  <b> Published Date:</b> <b id="date4"></b>
+                </div>
+                <div id="view">
+                  4,850.00
+                </div>
+                <button class="redmore">Read More</button>
+              </div>
+              <div>
+              </div>
+            </div>
+          </div>
 
-  <!-- ***************************************************** -->
-  <button id="view-reports">View all Reports</button>
-</div>
+          <!-- ***************************************************** -->
+          <button id="view-reports">View all Reports</button>
+        </div>
         <!-- ********************************************** -->
       </div>
       <div class="tab-pane " id="Information&Technology" role="tabpanel" aria-labelledby="profile-tab">
         <!-- ****************************************************** -->
-<div class="Trending1">
+        <div class="Trending1">
 
-  <!-- ************************************************* -->
-  <div class="box-info-Trending">
-    <div class="Trending">
-      <div style="display: flex;">
-        <h4 id="topic1">Discover Growth Opportunities</h4>
-        <h4 id="Industry">Industry</h4>
-      </div>
-      <p id="text_bios">
-        At Fortune Business Insights, we cover both niche and established markets. We identify growth
-        opportunities across these markets, irrespective of their age.
-      </p>
-      <div style="color: black; display: flex;" class="text-doun">
-        <div class="Published">
-          <b> Published Date:</b> <b id="date"></b>
-        </div>
-        <div id="view">
-          4,850.00
-        </div>
-        <button class="redmore">Read More</button>
-      </div>
-      <div>
-      </div>
-    </div>
-  </div>
-  <!-- ***************************************************** -->
+          <!-- ************************************************* -->
+          <div class="box-info-Trending">
+            <div class="Trending">
+              <div style="display: flex;">
+                <h4 id="topic1">Discover Growth Opportunities</h4>
+                <h4 id="Industry">Industry</h4>
+              </div>
+              <p id="text_bios">
+                At Fortune Business Insights, we cover both niche and established markets. We identify growth
+                opportunities across these markets, irrespective of their age.
+              </p>
+              <div style="color: black; display: flex;" class="text-doun">
+                <div class="Published">
+                  <b> Published Date:</b> <b id="date"></b>
+                </div>
+                <div id="view">
+                  4,850.00
+                </div>
+                <button class="redmore">Read More</button>
+              </div>
+              <div>
+              </div>
+            </div>
+          </div>
+          <!-- ***************************************************** -->
 
-  <!-- ************************************************* -->
-  <div class="box-info-Trending">
-    <div class="Trending">
-      <div style="display: flex;">
-        <h4 id="topic1">Discover Growth Opportunities</h4>
-        <h4 id="Industry">Industry</h4>
-      </div>
-      <p id="text_bios">
-        At Fortune Business Insights, we cover both niche and established markets. We identify growth
-        opportunities across these markets, irrespective of their age.
-      </p>
-      <div style="color: black; display: flex;" class="text-doun">
-        <div class="Published">
-          <b> Published Date:</b> <b id="date2"></b>
-        </div>
-        <div id="view">
-          4,850.00
-        </div>
-        <button class="redmore">Read More</button>
-      </div>
-      <div>
-      </div>
-    </div>
-  </div>
-  <!-- ***************************************************** -->
+          <!-- ************************************************* -->
+          <div class="box-info-Trending">
+            <div class="Trending">
+              <div style="display: flex;">
+                <h4 id="topic1">Discover Growth Opportunities</h4>
+                <h4 id="Industry">Industry</h4>
+              </div>
+              <p id="text_bios">
+                At Fortune Business Insights, we cover both niche and established markets. We identify growth
+                opportunities across these markets, irrespective of their age.
+              </p>
+              <div style="color: black; display: flex;" class="text-doun">
+                <div class="Published">
+                  <b> Published Date:</b> <b id="date2"></b>
+                </div>
+                <div id="view">
+                  4,850.00
+                </div>
+                <button class="redmore">Read More</button>
+              </div>
+              <div>
+              </div>
+            </div>
+          </div>
+          <!-- ***************************************************** -->
 
-  <!-- ************************************************* -->
-  <div class="box-info-Trending">
-    <div class="Trending">
-      <div style="display: flex;">
-        <h4 id="topic1">Discover Growth Opportunities</h4>
-        <h4 id="Industry">Industry</h4>
-      </div>
-      <p id="text_bios">
-        At Fortune Business Insights, we cover both niche and established markets. We identify growth
-        opportunities across these markets, irrespective of their age.
-      </p>
-      <div style="color: black; display: flex;" class="text-doun">
-        <div class="Published">
-          <b> Published Date:</b> <b id="date3"></b>
-        </div>
-        <div id="view">
-          4,850.00
-        </div>
-        <button class="redmore">Read More</button>
-      </div>
-      <div>
-      </div>
-    </div>
-  </div>
-  <!-- ***************************************************** -->
+          <!-- ************************************************* -->
+          <div class="box-info-Trending">
+            <div class="Trending">
+              <div style="display: flex;">
+                <h4 id="topic1">Discover Growth Opportunities</h4>
+                <h4 id="Industry">Industry</h4>
+              </div>
+              <p id="text_bios">
+                At Fortune Business Insights, we cover both niche and established markets. We identify growth
+                opportunities across these markets, irrespective of their age.
+              </p>
+              <div style="color: black; display: flex;" class="text-doun">
+                <div class="Published">
+                  <b> Published Date:</b> <b id="date3"></b>
+                </div>
+                <div id="view">
+                  4,850.00
+                </div>
+                <button class="redmore">Read More</button>
+              </div>
+              <div>
+              </div>
+            </div>
+          </div>
+          <!-- ***************************************************** -->
 
-  <!-- ************************************************* -->
-  <div class="box-info-Trending">
-    <div class="Trending">
-      <div style="display: flex;">
-        <h4 id="topic1">Discover Growth Opportunities</h4>
-        <h4 id="Industry">Industry</h4>
-      </div>
-      <p id="text_bios">
-        At Fortune Business Insights, we cover both niche and established markets. We identify growth
-        opportunities across these markets, irrespective of their age.
-      </p>
-      <div style="color: black; display: flex;" class="text-doun">
-        <div class="Published">
-          <b> Published Date:</b> <b id="date4"></b>
-        </div>
-        <div id="view">
-          4,850.00
-        </div>
-        <button class="redmore">Read More</button>
-      </div>
-      <div>
-      </div>
-    </div>
-  </div>
+          <!-- ************************************************* -->
+          <div class="box-info-Trending">
+            <div class="Trending">
+              <div style="display: flex;">
+                <h4 id="topic1">Discover Growth Opportunities</h4>
+                <h4 id="Industry">Industry</h4>
+              </div>
+              <p id="text_bios">
+                At Fortune Business Insights, we cover both niche and established markets. We identify growth
+                opportunities across these markets, irrespective of their age.
+              </p>
+              <div style="color: black; display: flex;" class="text-doun">
+                <div class="Published">
+                  <b> Published Date:</b> <b id="date4"></b>
+                </div>
+                <div id="view">
+                  4,850.00
+                </div>
+                <button class="redmore">Read More</button>
+              </div>
+              <div>
+              </div>
+            </div>
+          </div>
 
-  <!-- ***************************************************** -->
-  <button id="view-reports">View all Reports</button>
-</div>
+          <!-- ***************************************************** -->
+          <button id="view-reports">View all Reports</button>
+        </div>
         <!-- ********************************************** -->
       </div>
       <div class="tab-pane " id="Machinery&Equipment" role="tabpanel" aria-labelledby="contact-tab">
         <!-- ****************************************************** -->
-<div class="Trending1">
+        <div class="Trending1">
 
-  <!-- ************************************************* -->
-  <div class="box-info-Trending">
-    <div class="Trending">
-      <div style="display: flex;">
-        <h4 id="topic1">Discover Growth Opportunities</h4>
-        <h4 id="Industry">Industry</h4>
-      </div>
-      <p id="text_bios">
-        At Fortune Business Insights, we cover both niche and established markets. We identify growth
-        opportunities across these markets, irrespective of their age.
-      </p>
-      <div style="color: black; display: flex;" class="text-doun">
-        <div class="Published">
-          <b> Published Date:</b> <b id="date"></b>
-        </div>
-        <div id="view">
-          4,850.00
-        </div>
-        <button class="redmore">Read More</button>
-      </div>
-      <div>
-      </div>
-    </div>
-  </div>
-  <!-- ***************************************************** -->
+          <!-- ************************************************* -->
+          <div class="box-info-Trending">
+            <div class="Trending">
+              <div style="display: flex;">
+                <h4 id="topic1">Discover Growth Opportunities</h4>
+                <h4 id="Industry">Industry</h4>
+              </div>
+              <p id="text_bios">
+                At Fortune Business Insights, we cover both niche and established markets. We identify growth
+                opportunities across these markets, irrespective of their age.
+              </p>
+              <div style="color: black; display: flex;" class="text-doun">
+                <div class="Published">
+                  <b> Published Date:</b> <b id="date"></b>
+                </div>
+                <div id="view">
+                  4,850.00
+                </div>
+                <button class="redmore">Read More</button>
+              </div>
+              <div>
+              </div>
+            </div>
+          </div>
+          <!-- ***************************************************** -->
 
-  <!-- ************************************************* -->
-  <div class="box-info-Trending">
-    <div class="Trending">
-      <div style="display: flex;">
-        <h4 id="topic1">Discover Growth Opportunities</h4>
-        <h4 id="Industry">Industry</h4>
-      </div>
-      <p id="text_bios">
-        At Fortune Business Insights, we cover both niche and established markets. We identify growth
-        opportunities across these markets, irrespective of their age.
-      </p>
-      <div style="color: black; display: flex;" class="text-doun">
-        <div class="Published">
-          <b> Published Date:</b> <b id="date2"></b>
-        </div>
-        <div id="view">
-          4,850.00
-        </div>
-        <button class="redmore">Read More</button>
-      </div>
-      <div>
-      </div>
-    </div>
-  </div>
-  <!-- ***************************************************** -->
+          <!-- ************************************************* -->
+          <div class="box-info-Trending">
+            <div class="Trending">
+              <div style="display: flex;">
+                <h4 id="topic1">Discover Growth Opportunities</h4>
+                <h4 id="Industry">Industry</h4>
+              </div>
+              <p id="text_bios">
+                At Fortune Business Insights, we cover both niche and established markets. We identify growth
+                opportunities across these markets, irrespective of their age.
+              </p>
+              <div style="color: black; display: flex;" class="text-doun">
+                <div class="Published">
+                  <b> Published Date:</b> <b id="date2"></b>
+                </div>
+                <div id="view">
+                  4,850.00
+                </div>
+                <button class="redmore">Read More</button>
+              </div>
+              <div>
+              </div>
+            </div>
+          </div>
+          <!-- ***************************************************** -->
 
-  <!-- ************************************************* -->
-  <div class="box-info-Trending">
-    <div class="Trending">
-      <div style="display: flex;">
-        <h4 id="topic1">Discover Growth Opportunities</h4>
-        <h4 id="Industry">Industry</h4>
-      </div>
-      <p id="text_bios">
-        At Fortune Business Insights, we cover both niche and established markets. We identify growth
-        opportunities across these markets, irrespective of their age.
-      </p>
-      <div style="color: black; display: flex;" class="text-doun">
-        <div class="Published">
-          <b> Published Date:</b> <b id="date3"></b>
-        </div>
-        <div id="view">
-          4,850.00
-        </div>
-        <button class="redmore">Read More</button>
-      </div>
-      <div>
-      </div>
-    </div>
-  </div>
-  <!-- ***************************************************** -->
+          <!-- ************************************************* -->
+          <div class="box-info-Trending">
+            <div class="Trending">
+              <div style="display: flex;">
+                <h4 id="topic1">Discover Growth Opportunities</h4>
+                <h4 id="Industry">Industry</h4>
+              </div>
+              <p id="text_bios">
+                At Fortune Business Insights, we cover both niche and established markets. We identify growth
+                opportunities across these markets, irrespective of their age.
+              </p>
+              <div style="color: black; display: flex;" class="text-doun">
+                <div class="Published">
+                  <b> Published Date:</b> <b id="date3"></b>
+                </div>
+                <div id="view">
+                  4,850.00
+                </div>
+                <button class="redmore">Read More</button>
+              </div>
+              <div>
+              </div>
+            </div>
+          </div>
+          <!-- ***************************************************** -->
 
-  <!-- ************************************************* -->
-  <div class="box-info-Trending">
-    <div class="Trending">
-      <div style="display: flex;">
-        <h4 id="topic1">Discover Growth Opportunities</h4>
-        <h4 id="Industry">Industry</h4>
-      </div>
-      <p id="text_bios">
-        At Fortune Business Insights, we cover both niche and established markets. We identify growth
-        opportunities across these markets, irrespective of their age.
-      </p>
-      <div style="color: black; display: flex;" class="text-doun">
-        <div class="Published">
-          <b> Published Date:</b> <b id="date4"></b>
-        </div>
-        <div id="view">
-          4,850.00
-        </div>
-        <button class="redmore">Read More</button>
-      </div>
-      <div>
-      </div>
-    </div>
-  </div>
+          <!-- ************************************************* -->
+          <div class="box-info-Trending">
+            <div class="Trending">
+              <div style="display: flex;">
+                <h4 id="topic1">Discover Growth Opportunities</h4>
+                <h4 id="Industry">Industry</h4>
+              </div>
+              <p id="text_bios">
+                At Fortune Business Insights, we cover both niche and established markets. We identify growth
+                opportunities across these markets, irrespective of their age.
+              </p>
+              <div style="color: black; display: flex;" class="text-doun">
+                <div class="Published">
+                  <b> Published Date:</b> <b id="date4"></b>
+                </div>
+                <div id="view">
+                  4,850.00
+                </div>
+                <button class="redmore">Read More</button>
+              </div>
+              <div>
+              </div>
+            </div>
+          </div>
 
-  <!-- ***************************************************** -->
-  <button id="view-reports">View all Reports</button>
-</div>
+          <!-- ***************************************************** -->
+          <button id="view-reports">View all Reports</button>
+        </div>
         <!-- ********************************************** -->
       </div>
       <div class="tab-pane " id="Food&Beverages" role="tabpanel" aria-labelledby="contact-tab">
         <!-- ****************************************************** -->
-<div class="Trending1">
+        <div class="Trending1">
 
-  <!-- ************************************************* -->
-  <div class="box-info-Trending">
-    <div class="Trending">
-      <div style="display: flex;">
-        <h4 id="topic1">Discover Growth Opportunities</h4>
-        <h4 id="Industry">Industry</h4>
-      </div>
-      <p id="text_bios">
-        At Fortune Business Insights, we cover both niche and established markets. We identify growth
-        opportunities across these markets, irrespective of their age.
-      </p>
-      <div style="color: black; display: flex;" class="text-doun">
-        <div class="Published">
-          <b> Published Date:</b> <b id="date"></b>
-        </div>
-        <div id="view">
-          4,850.00
-        </div>
-        <button class="redmore">Read More</button>
-      </div>
-      <div>
-      </div>
-    </div>
-  </div>
-  <!-- ***************************************************** -->
+          <!-- ************************************************* -->
+          <div class="box-info-Trending">
+            <div class="Trending">
+              <div style="display: flex;">
+                <h4 id="topic1">Discover Growth Opportunities</h4>
+                <h4 id="Industry">Industry</h4>
+              </div>
+              <p id="text_bios">
+                At Fortune Business Insights, we cover both niche and established markets. We identify growth
+                opportunities across these markets, irrespective of their age.
+              </p>
+              <div style="color: black; display: flex;" class="text-doun">
+                <div class="Published">
+                  <b> Published Date:</b> <b id="date"></b>
+                </div>
+                <div id="view">
+                  4,850.00
+                </div>
+                <button class="redmore">Read More</button>
+              </div>
+              <div>
+              </div>
+            </div>
+          </div>
+          <!-- ***************************************************** -->
 
-  <!-- ************************************************* -->
-  <div class="box-info-Trending">
-    <div class="Trending">
-      <div style="display: flex;">
-        <h4 id="topic1">Discover Growth Opportunities</h4>
-        <h4 id="Industry">Industry</h4>
-      </div>
-      <p id="text_bios">
-        At Fortune Business Insights, we cover both niche and established markets. We identify growth
-        opportunities across these markets, irrespective of their age.
-      </p>
-      <div style="color: black; display: flex;" class="text-doun">
-        <div class="Published">
-          <b> Published Date:</b> <b id="date2"></b>
-        </div>
-        <div id="view">
-          4,850.00
-        </div>
-        <button class="redmore">Read More</button>
-      </div>
-      <div>
-      </div>
-    </div>
-  </div>
-  <!-- ***************************************************** -->
+          <!-- ************************************************* -->
+          <div class="box-info-Trending">
+            <div class="Trending">
+              <div style="display: flex;">
+                <h4 id="topic1">Discover Growth Opportunities</h4>
+                <h4 id="Industry">Industry</h4>
+              </div>
+              <p id="text_bios">
+                At Fortune Business Insights, we cover both niche and established markets. We identify growth
+                opportunities across these markets, irrespective of their age.
+              </p>
+              <div style="color: black; display: flex;" class="text-doun">
+                <div class="Published">
+                  <b> Published Date:</b> <b id="date2"></b>
+                </div>
+                <div id="view">
+                  4,850.00
+                </div>
+                <button class="redmore">Read More</button>
+              </div>
+              <div>
+              </div>
+            </div>
+          </div>
+          <!-- ***************************************************** -->
 
-  <!-- ************************************************* -->
-  <div class="box-info-Trending">
-    <div class="Trending">
-      <div style="display: flex;">
-        <h4 id="topic1">Discover Growth Opportunities</h4>
-        <h4 id="Industry">Industry</h4>
-      </div>
-      <p id="text_bios">
-        At Fortune Business Insights, we cover both niche and established markets. We identify growth
-        opportunities across these markets, irrespective of their age.
-      </p>
-      <div style="color: black; display: flex;" class="text-doun">
-        <div class="Published">
-          <b> Published Date:</b> <b id="date3"></b>
-        </div>
-        <div id="view">
-          4,850.00
-        </div>
-        <button class="redmore">Read More</button>
-      </div>
-      <div>
-      </div>
-    </div>
-  </div>
-  <!-- ***************************************************** -->
+          <!-- ************************************************* -->
+          <div class="box-info-Trending">
+            <div class="Trending">
+              <div style="display: flex;">
+                <h4 id="topic1">Discover Growth Opportunities</h4>
+                <h4 id="Industry">Industry</h4>
+              </div>
+              <p id="text_bios">
+                At Fortune Business Insights, we cover both niche and established markets. We identify growth
+                opportunities across these markets, irrespective of their age.
+              </p>
+              <div style="color: black; display: flex;" class="text-doun">
+                <div class="Published">
+                  <b> Published Date:</b> <b id="date3"></b>
+                </div>
+                <div id="view">
+                  4,850.00
+                </div>
+                <button class="redmore">Read More</button>
+              </div>
+              <div>
+              </div>
+            </div>
+          </div>
+          <!-- ***************************************************** -->
 
-  <!-- ************************************************* -->
-  <div class="box-info-Trending">
-    <div class="Trending">
-      <div style="display: flex;">
-        <h4 id="topic1">Discover Growth Opportunities</h4>
-        <h4 id="Industry">Industry</h4>
-      </div>
-      <p id="text_bios">
-        At Fortune Business Insights, we cover both niche and established markets. We identify growth
-        opportunities across these markets, irrespective of their age.
-      </p>
-      <div style="color: black; display: flex;" class="text-doun">
-        <div class="Published">
-          <b> Published Date:</b> <b id="date4"></b>
-        </div>
-        <div id="view">
-          4,850.00
-        </div>
-        <button class="redmore">Read More</button>
-      </div>
-      <div>
-      </div>
-    </div>
-  </div>
+          <!-- ************************************************* -->
+          <div class="box-info-Trending">
+            <div class="Trending">
+              <div style="display: flex;">
+                <h4 id="topic1">Discover Growth Opportunities</h4>
+                <h4 id="Industry">Industry</h4>
+              </div>
+              <p id="text_bios">
+                At Fortune Business Insights, we cover both niche and established markets. We identify growth
+                opportunities across these markets, irrespective of their age.
+              </p>
+              <div style="color: black; display: flex;" class="text-doun">
+                <div class="Published">
+                  <b> Published Date:</b> <b id="date4"></b>
+                </div>
+                <div id="view">
+                  4,850.00
+                </div>
+                <button class="redmore">Read More</button>
+              </div>
+              <div>
+              </div>
+            </div>
+          </div>
 
-  <!-- ***************************************************** -->
-  <button id="view-reports">View all Reports</button>
-</div>
+          <!-- ***************************************************** -->
+          <button id="view-reports">View all Reports</button>
+        </div>
         <!-- ********************************************** -->
       </div>
       <div class="tab-pane " id="Energy&Power" role="tabpanel" aria-labelledby="contact-tab">
         <!-- ****************************************************** -->
-<div class="Trending1">
+        <div class="Trending1">
 
-  <!-- ************************************************* -->
-  <div class="box-info-Trending">
-    <div class="Trending">
-      <div style="display: flex;">
-        <h4 id="topic1">Discover Growth Opportunities</h4>
-        <h4 id="Industry">Industry</h4>
-      </div>
-      <p id="text_bios">
-        At Fortune Business Insights, we cover both niche and established markets. We identify growth
-        opportunities across these markets, irrespective of their age.
-      </p>
-      <div style="color: black; display: flex;" class="text-doun">
-        <div class="Published">
-          <b> Published Date:</b> <b id="date"></b>
-        </div>
-        <div id="view">
-          4,850.00
-        </div>
-        <button class="redmore">Read More</button>
-      </div>
-      <div>
-      </div>
-    </div>
-  </div>
-  <!-- ***************************************************** -->
+          <!-- ************************************************* -->
+          <div class="box-info-Trending">
+            <div class="Trending">
+              <div style="display: flex;">
+                <h4 id="topic1">Discover Growth Opportunities</h4>
+                <h4 id="Industry">Industry</h4>
+              </div>
+              <p id="text_bios">
+                At Fortune Business Insights, we cover both niche and established markets. We identify growth
+                opportunities across these markets, irrespective of their age.
+              </p>
+              <div style="color: black; display: flex;" class="text-doun">
+                <div class="Published">
+                  <b> Published Date:</b> <b id="date"></b>
+                </div>
+                <div id="view">
+                  4,850.00
+                </div>
+                <button class="redmore">Read More</button>
+              </div>
+              <div>
+              </div>
+            </div>
+          </div>
+          <!-- ***************************************************** -->
 
-  <!-- ************************************************* -->
-  <div class="box-info-Trending">
-    <div class="Trending">
-      <div style="display: flex;">
-        <h4 id="topic1">Discover Growth Opportunities</h4>
-        <h4 id="Industry">Industry</h4>
-      </div>
-      <p id="text_bios">
-        At Fortune Business Insights, we cover both niche and established markets. We identify growth
-        opportunities across these markets, irrespective of their age.
-      </p>
-      <div style="color: black; display: flex;" class="text-doun">
-        <div class="Published">
-          <b> Published Date:</b> <b id="date2"></b>
-        </div>
-        <div id="view">
-          4,850.00
-        </div>
-        <button class="redmore">Read More</button>
-      </div>
-      <div>
-      </div>
-    </div>
-  </div>
-  <!-- ***************************************************** -->
+          <!-- ************************************************* -->
+          <div class="box-info-Trending">
+            <div class="Trending">
+              <div style="display: flex;">
+                <h4 id="topic1">Discover Growth Opportunities</h4>
+                <h4 id="Industry">Industry</h4>
+              </div>
+              <p id="text_bios">
+                At Fortune Business Insights, we cover both niche and established markets. We identify growth
+                opportunities across these markets, irrespective of their age.
+              </p>
+              <div style="color: black; display: flex;" class="text-doun">
+                <div class="Published">
+                  <b> Published Date:</b> <b id="date2"></b>
+                </div>
+                <div id="view">
+                  4,850.00
+                </div>
+                <button class="redmore">Read More</button>
+              </div>
+              <div>
+              </div>
+            </div>
+          </div>
+          <!-- ***************************************************** -->
 
-  <!-- ************************************************* -->
-  <div class="box-info-Trending">
-    <div class="Trending">
-      <div style="display: flex;">
-        <h4 id="topic1">Discover Growth Opportunities</h4>
-        <h4 id="Industry">Industry</h4>
-      </div>
-      <p id="text_bios">
-        At Fortune Business Insights, we cover both niche and established markets. We identify growth
-        opportunities across these markets, irrespective of their age.
-      </p>
-      <div style="color: black; display: flex;" class="text-doun">
-        <div class="Published">
-          <b> Published Date:</b> <b id="date3"></b>
-        </div>
-        <div id="view">
-          4,850.00
-        </div>
-        <button class="redmore">Read More</button>
-      </div>
-      <div>
-      </div>
-    </div>
-  </div>
-  <!-- ***************************************************** -->
+          <!-- ************************************************* -->
+          <div class="box-info-Trending">
+            <div class="Trending">
+              <div style="display: flex;">
+                <h4 id="topic1">Discover Growth Opportunities</h4>
+                <h4 id="Industry">Industry</h4>
+              </div>
+              <p id="text_bios">
+                At Fortune Business Insights, we cover both niche and established markets. We identify growth
+                opportunities across these markets, irrespective of their age.
+              </p>
+              <div style="color: black; display: flex;" class="text-doun">
+                <div class="Published">
+                  <b> Published Date:</b> <b id="date3"></b>
+                </div>
+                <div id="view">
+                  4,850.00
+                </div>
+                <button class="redmore">Read More</button>
+              </div>
+              <div>
+              </div>
+            </div>
+          </div>
+          <!-- ***************************************************** -->
 
-  <!-- ************************************************* -->
-  <div class="box-info-Trending">
-    <div class="Trending">
-      <div style="display: flex;">
-        <h4 id="topic1">Discover Growth Opportunities</h4>
-        <h4 id="Industry">Industry</h4>
-      </div>
-      <p id="text_bios">
-        At Fortune Business Insights, we cover both niche and established markets. We identify growth
-        opportunities across these markets, irrespective of their age.
-      </p>
-      <div style="color: black; display: flex;" class="text-doun">
-        <div class="Published">
-          <b> Published Date:</b> <b id="date4"></b>
-        </div>
-        <div id="view">
-          4,850.00
-        </div>
-        <button class="redmore">Read More</button>
-      </div>
-      <div>
-      </div>
-    </div>
-  </div>
+          <!-- ************************************************* -->
+          <div class="box-info-Trending">
+            <div class="Trending">
+              <div style="display: flex;">
+                <h4 id="topic1">Discover Growth Opportunities</h4>
+                <h4 id="Industry">Industry</h4>
+              </div>
+              <p id="text_bios">
+                At Fortune Business Insights, we cover both niche and established markets. We identify growth
+                opportunities across these markets, irrespective of their age.
+              </p>
+              <div style="color: black; display: flex;" class="text-doun">
+                <div class="Published">
+                  <b> Published Date:</b> <b id="date4"></b>
+                </div>
+                <div id="view">
+                  4,850.00
+                </div>
+                <button class="redmore">Read More</button>
+              </div>
+              <div>
+              </div>
+            </div>
+          </div>
 
-  <!-- ***************************************************** -->
-  <button id="view-reports">View all Reports</button>
-</div>
+          <!-- ***************************************************** -->
+          <button id="view-reports">View all Reports</button>
+        </div>
         <!-- ********************************************** -->
       </div>
       <div class="tab-pane " id="Agriculture" role="tabpanel" aria-labelledby="contact-tab">
         <!-- ****************************************************** -->
-<div class="Trending1">
+        <div class="Trending1">
 
-  <!-- ************************************************* -->
-  <div class="box-info-Trending">
-    <div class="Trending">
-      <div style="display: flex;">
-        <h4 id="topic1">Discover Growth Opportunities</h4>
-        <h4 id="Industry">Industry</h4>
-      </div>
-      <p id="text_bios">
-        At Fortune Business Insights, we cover both niche and established markets. We identify growth
-        opportunities across these markets, irrespective of their age.
-      </p>
-      <div style="color: black; display: flex;" class="text-doun">
-        <div class="Published">
-          <b> Published Date:</b> <b id="date"></b>
-        </div>
-        <div id="view">
-          4,850.00
-        </div>
-        <button class="redmore">Read More</button>
-      </div>
-      <div>
-      </div>
-    </div>
-  </div>
-  <!-- ***************************************************** -->
+          <!-- ************************************************* -->
+          <div class="box-info-Trending">
+            <div class="Trending">
+              <div style="display: flex;">
+                <h4 id="topic1">Discover Growth Opportunities</h4>
+                <h4 id="Industry">Industry</h4>
+              </div>
+              <p id="text_bios">
+                At Fortune Business Insights, we cover both niche and established markets. We identify growth
+                opportunities across these markets, irrespective of their age.
+              </p>
+              <div style="color: black; display: flex;" class="text-doun">
+                <div class="Published">
+                  <b> Published Date:</b> <b id="date"></b>
+                </div>
+                <div id="view">
+                  4,850.00
+                </div>
+                <button class="redmore">Read More</button>
+              </div>
+              <div>
+              </div>
+            </div>
+          </div>
+          <!-- ***************************************************** -->
 
-  <!-- ************************************************* -->
-  <div class="box-info-Trending">
-    <div class="Trending">
-      <div style="display: flex;">
-        <h4 id="topic1">Discover Growth Opportunities</h4>
-        <h4 id="Industry">Industry</h4>
-      </div>
-      <p id="text_bios">
-        At Fortune Business Insights, we cover both niche and established markets. We identify growth
-        opportunities across these markets, irrespective of their age.
-      </p>
-      <div style="color: black; display: flex;" class="text-doun">
-        <div class="Published">
-          <b> Published Date:</b> <b id="date2"></b>
-        </div>
-        <div id="view">
-          4,850.00
-        </div>
-        <button class="redmore">Read More</button>
-      </div>
-      <div>
-      </div>
-    </div>
-  </div>
-  <!-- ***************************************************** -->
+          <!-- ************************************************* -->
+          <div class="box-info-Trending">
+            <div class="Trending">
+              <div style="display: flex;">
+                <h4 id="topic1">Discover Growth Opportunities</h4>
+                <h4 id="Industry">Industry</h4>
+              </div>
+              <p id="text_bios">
+                At Fortune Business Insights, we cover both niche and established markets. We identify growth
+                opportunities across these markets, irrespective of their age.
+              </p>
+              <div style="color: black; display: flex;" class="text-doun">
+                <div class="Published">
+                  <b> Published Date:</b> <b id="date2"></b>
+                </div>
+                <div id="view">
+                  4,850.00
+                </div>
+                <button class="redmore">Read More</button>
+              </div>
+              <div>
+              </div>
+            </div>
+          </div>
+          <!-- ***************************************************** -->
 
-  <!-- ************************************************* -->
-  <div class="box-info-Trending">
-    <div class="Trending">
-      <div style="display: flex;">
-        <h4 id="topic1">Discover Growth Opportunities</h4>
-        <h4 id="Industry">Industry</h4>
-      </div>
-      <p id="text_bios">
-        At Fortune Business Insights, we cover both niche and established markets. We identify growth
-        opportunities across these markets, irrespective of their age.
-      </p>
-      <div style="color: black; display: flex;" class="text-doun">
-        <div class="Published">
-          <b> Published Date:</b> <b id="date3"></b>
-        </div>
-        <div id="view">
-          4,850.00
-        </div>
-        <button class="redmore">Read More</button>
-      </div>
-      <div>
-      </div>
-    </div>
-  </div>
-  <!-- ***************************************************** -->
+          <!-- ************************************************* -->
+          <div class="box-info-Trending">
+            <div class="Trending">
+              <div style="display: flex;">
+                <h4 id="topic1">Discover Growth Opportunities</h4>
+                <h4 id="Industry">Industry</h4>
+              </div>
+              <p id="text_bios">
+                At Fortune Business Insights, we cover both niche and established markets. We identify growth
+                opportunities across these markets, irrespective of their age.
+              </p>
+              <div style="color: black; display: flex;" class="text-doun">
+                <div class="Published">
+                  <b> Published Date:</b> <b id="date3"></b>
+                </div>
+                <div id="view">
+                  4,850.00
+                </div>
+                <button class="redmore">Read More</button>
+              </div>
+              <div>
+              </div>
+            </div>
+          </div>
+          <!-- ***************************************************** -->
 
-  <!-- ************************************************* -->
-  <div class="box-info-Trending">
-    <div class="Trending">
-      <div style="display: flex;">
-        <h4 id="topic1">Discover Growth Opportunities</h4>
-        <h4 id="Industry">Industry</h4>
-      </div>
-      <p id="text_bios">
-        At Fortune Business Insights, we cover both niche and established markets. We identify growth
-        opportunities across these markets, irrespective of their age.
-      </p>
-      <div style="color: black; display: flex;" class="text-doun">
-        <div class="Published">
-          <b> Published Date:</b> <b id="date4"></b>
-        </div>
-        <div id="view">
-          4,850.00
-        </div>
-        <button class="redmore">Read More</button>
-      </div>
-      <div>
-      </div>
-    </div>
-  </div>
+          <!-- ************************************************* -->
+          <div class="box-info-Trending">
+            <div class="Trending">
+              <div style="display: flex;">
+                <h4 id="topic1">Discover Growth Opportunities</h4>
+                <h4 id="Industry">Industry</h4>
+              </div>
+              <p id="text_bios">
+                At Fortune Business Insights, we cover both niche and established markets. We identify growth
+                opportunities across these markets, irrespective of their age.
+              </p>
+              <div style="color: black; display: flex;" class="text-doun">
+                <div class="Published">
+                  <b> Published Date:</b> <b id="date4"></b>
+                </div>
+                <div id="view">
+                  4,850.00
+                </div>
+                <button class="redmore">Read More</button>
+              </div>
+              <div>
+              </div>
+            </div>
+          </div>
 
-  <!-- ***************************************************** -->
-  <button id="view-reports">View all Reports</button>
-</div>
+          <!-- ***************************************************** -->
+          <button id="view-reports">View all Reports</button>
+        </div>
         <!-- ********************************************** -->
       </div>
 
     </div>
-      <!-- **********************************     -->
+    <!-- **********************************     -->
 
-        <div class="sections">
+    <div class="sections">
 
-            <section class="section-left" >
-<!-- **** -->
-              <div>
-                <div class="green"></div>
-                <div class="box1-selct">
-                    <h1 class="Blogs" >Industry Blogs</h1>
-                </div> <br>
-                <div class="box2-selct">
-                  <ul class="box2-ul">
-                    <li class="box2-li">
-                      <div class="box1-col">
-                        <div class="box-text1">
-                          <div class="box-t1">28</div>
-                          <div class="box-t2 bluetext2">FEB 24</div>
-                        </div>
-                      <!-- <br> -->
-                      <p class="bios-box2">
-                        Transformation in Healthcare Sector, Developing Cutting-Edge Medical Devices, and Evolving Technolog...
-                      </p>
+      <section class="section-left">
+        <!-- **** -->
+        <div>
+          <div class="green"></div>
+          <div class="box1-selct">
+            <h1 class="Blogs">Industry Blogs</h1>
+          </div> <br>
+          <div class="box2-selct">
+            <ul class="box2-ul">
+              <li class="box2-li">
+                <div class="box1-col">
+                  <div class="box-text1">
+                    <div class="box-t1">28</div>
+                    <div class="box-t2 bluetext2">FEB 24</div>
+                  </div>
+                  <!-- <br> -->
+                  <p class="bios-box2">
+                    Transformation in Healthcare Sector, Developing Cutting-Edge Medical Devices, and Evolving
+                    Technolog...
+                  </p>
 
-                    </div>
-                    </li> <br>
-                    <li class="box2-li">
-
-                      <div class="box1-col">
-                        <div class="box-text1">
-                          <div class="box-t1">28</div>
-                          <div class="box-t2 bluetext2">FEB 24</div>
-                        </div>
-                      <!-- <br> -->
-                      <p class="bios-box2">
-                        Transformation in Healthcare Sector, Developing Cutting-Edge Medical Devices, and Evolving Technolog...
-                      </p>
-
-                    </div>
-                    </li> <br>
-                    <li class="box2-li">
-                      
-                      <div class="box1-col">
-                        <div class="box-text1">
-                          <div class="box-t1">28</div>
-                          <div class="box-t2 bluetext2">FEB 24</div>
-                        </div>
-                      <!-- <br> -->
-                      <p class="bios-box2">
-                        Transformation in Healthcare Sector, Developing Cutting-Edge Medical Devices, and Evolving Technolog...
-                      </p>
-
-                    </div>
-                    </li> <br>
-                    <li class="box2-li">
-                      
-                      <div class="box1-col">
-                        <div class="box-text1">
-                          <div class="box-t1">28</div>
-                          <div class="box-t2 bluetext2">FEB 24</div>
-                        </div>
-                      <!-- <br> -->
-                      <p class="bios-box2">
-                        Transformation in Healthcare Sector, Developing Cutting-Edge Medical Devices, and Evolving Technolog...
-                      </p>
-
-                    </div>
-                    </li> 
-                    <li class="box2-li">
-                      
-                      <a href="" class="View-butt-box2"> View All</a>
-                    </li>
-                  </ul>
                 </div>
-              </div>
-            </section>
-            <!-- ***************************** -->
-            <section class="section-right" >
-              <!-- **** -->
-              <div>
-                <div class="green blue"></div>
-                <div class="box1-selct">
-                    <h1 class="Blogs bluetext" >Industry Blogs</h1>
-                </div> <br>
-                <div class="box2-selct">
-                  <ul class="box2-ul">
-                    <li class="box2-li">
-                      <div class="box1-col">
-                        <div class="box-text1">
-                          <div class="box-t1 blue">28</div>
-                          <div class="box-t2 bluetext2">FEB 24</div>
-                        </div>
-                      <!-- <br> -->
-                      <p class="bios-box2">
-                        Transformation in Healthcare Sector, Developing Cutting-Edge Medical Devices, and Evolving Technolog...
-                      </p>
+              </li> <br>
+              <li class="box2-li">
 
-                    </div>
-                    </li> <br>
-                    <li class="box2-li">
+                <div class="box1-col">
+                  <div class="box-text1">
+                    <div class="box-t1">28</div>
+                    <div class="box-t2 bluetext2">FEB 24</div>
+                  </div>
+                  <!-- <br> -->
+                  <p class="bios-box2">
+                    Transformation in Healthcare Sector, Developing Cutting-Edge Medical Devices, and Evolving
+                    Technolog...
+                  </p>
 
-                      <div class="box1-col">
-                        <div class="box-text1">
-                          <div class="box-t1 blue">28</div>
-                          <div class="box-t2 bluetext2">FEB 24</div>
-                        </div>
-                      <!-- <br> -->
-                      <p class="bios-box2">
-                        Transformation in Healthcare Sector, Developing Cutting-Edge Medical Devices, and Evolving Technolog...
-                      </p>
-
-                    </div>
-                    </li> <br>
-                    <li class="box2-li">
-                      
-                      <div class="box1-col">
-                        <div class="box-text1">
-                          <div class="box-t1 blue">28</div>
-                          <div class="box-t2 bluetext2">FEB 24</div>
-                        </div>
-                      <!-- <br> -->
-                      <p class="bios-box2">
-                        Transformation in Healthcare Sector, Developing Cutting-Edge Medical Devices, and Evolving Technolog...
-                      </p>
-
-                    </div>
-                    </li> <br>
-                    <li class="box2-li">
-                      
-                      <div class="box1-col">
-                        <div class="box-text1">
-                          <div class="box-t1 blue">28</div>
-                          <div class="box-t2 bluetext2 ">FEB 24</div>
-                        </div>
-                      <!-- <br> -->
-                      <p class="bios-box2">
-                        Transformation in Healthcare Sector, Developing Cutting-Edge Medical Devices, and Evolving Technolog...
-                      </p>
-
-                    </div>
-                    </li> 
-                    <li class="box2-li">
-                      
-                      <a href="" class="View-butt-box2 bluetext"> View All</a>
-                    </li>
-                  </ul>
                 </div>
-              </div>
-            </section>
+              </li> <br>
+              <li class="box2-li">
 
+                <div class="box1-col">
+                  <div class="box-text1">
+                    <div class="box-t1">28</div>
+                    <div class="box-t2 bluetext2">FEB 24</div>
+                  </div>
+                  <!-- <br> -->
+                  <p class="bios-box2">
+                    Transformation in Healthcare Sector, Developing Cutting-Edge Medical Devices, and Evolving
+                    Technolog...
+                  </p>
+
+                </div>
+              </li> <br>
+              <li class="box2-li">
+
+                <div class="box1-col">
+                  <div class="box-text1">
+                    <div class="box-t1">28</div>
+                    <div class="box-t2 bluetext2">FEB 24</div>
+                  </div>
+                  <!-- <br> -->
+                  <p class="bios-box2">
+                    Transformation in Healthcare Sector, Developing Cutting-Edge Medical Devices, and Evolving
+                    Technolog...
+                  </p>
+
+                </div>
+              </li>
+              <li class="box2-li">
+
+                <a href="" class="View-butt-box2"> View All</a>
+              </li>
+            </ul>
+          </div>
         </div>
+      </section>
+      <!-- ***************************** -->
+      <section class="section-right">
+        <!-- **** -->
+        <div>
+          <div class="green blue"></div>
+          <div class="box1-selct">
+            <h1 class="Blogs bluetext">Industry Blogs</h1>
+          </div> <br>
+          <div class="box2-selct">
+            <ul class="box2-ul">
+              <li class="box2-li">
+                <div class="box1-col">
+                  <div class="box-text1">
+                    <div class="box-t1 blue">28</div>
+                    <div class="box-t2 bluetext2">FEB 24</div>
+                  </div>
+                  <!-- <br> -->
+                  <p class="bios-box2">
+                    Transformation in Healthcare Sector, Developing Cutting-Edge Medical Devices, and Evolving
+                    Technolog...
+                  </p>
 
-        <!-- *********************************************** -->
+                </div>
+              </li> <br>
+              <li class="box2-li">
 
-        <div class="Consulting-Services">
-          <h1 class="Consulting">Consulting Services</h1>
-          <p class="Growth">Growth Consultation with Actionable Insights and Tailor - Made Solutions</p>
+                <div class="box1-col">
+                  <div class="box-text1">
+                    <div class="box-t1 blue">28</div>
+                    <div class="box-t2 bluetext2">FEB 24</div>
+                  </div>
+                  <!-- <br> -->
+                  <p class="bios-box2">
+                    Transformation in Healthcare Sector, Developing Cutting-Edge Medical Devices, and Evolving
+                    Technolog...
+                  </p>
 
-          <div class="Quote-contact-us"><button class="Quote">Request a Quote</button>   <button class="contact-us">Contact Us</button></div>
+                </div>
+              </li> <br>
+              <li class="box2-li">
+
+                <div class="box1-col">
+                  <div class="box-text1">
+                    <div class="box-t1 blue">28</div>
+                    <div class="box-t2 bluetext2">FEB 24</div>
+                  </div>
+                  <!-- <br> -->
+                  <p class="bios-box2">
+                    Transformation in Healthcare Sector, Developing Cutting-Edge Medical Devices, and Evolving
+                    Technolog...
+                  </p>
+
+                </div>
+              </li> <br>
+              <li class="box2-li">
+
+                <div class="box1-col">
+                  <div class="box-text1">
+                    <div class="box-t1 blue">28</div>
+                    <div class="box-t2 bluetext2 ">FEB 24</div>
+                  </div>
+                  <!-- <br> -->
+                  <p class="bios-box2">
+                    Transformation in Healthcare Sector, Developing Cutting-Edge Medical Devices, and Evolving
+                    Technolog...
+                  </p>
+
+                </div>
+              </li>
+              <li class="box2-li">
+
+                <a href="" class="View-butt-box2 bluetext"> View All</a>
+              </li>
+            </ul>
+          </div>
         </div>
+      </section>
+
+    </div>
+
+    <!-- *********************************************** -->
+<div>
+    <div class="Consulting-Services">
+      <h1 class="Consulting">Consulting Services</h1>
+      <p class="Growth">Growth Consultation with Actionable Insights and Tailor - Made Solutions</p>
+
+      <div class="Quote-contact-us"><button class="Quote">Request a Quote</button> <button class="contact-us">Contact
+          Us</button></div>
+    </div>
 
 
-      <!-- ********************************************* -->
-        
-  <h1 class="Service">Service We Offer</h1>
+    <!-- ********************************************* -->
 
+
+
+
+
+</div>
+<div class="sction-service">
+    <div class="container1">
+      <h1 class="Service">Service We Offer</h1>
+      <div class="row">
+
+
+        <div class="offer-lists">
+          <div class="offer-box">
+            <h5 style="font-size: 1.0417vw;">Consulting Services</h5>
+            <p class="textj5">At Fortune Business Insights, our consulting services are fine-tuned to answer your
+              commercial queries with relevant data derived from trusted industrial sources.</p>
+            <div class="btn-box">
+              <a href="#">Read More</a>
+            </div>
+          </div>
+          <div class="offer-box">
+            <h5 style="font-size: 1.0417vw;">Tailored Insights</h5>
+            <p class="textj5">Our tailored researches cover actionable insights to help clients identify and capitalize
+              on prevailing opportunities. Our aim is to enable them stay ahead in competition.</p>
+            <div class="btn-box">
+              <a href="#">Read More</a>
+            </div>
+          </div>
+          <div class="offer-box">
+            <h5 style="font-size: 1.0417vw;">Syndicated Market Research</h5>
+            <p class="textj5">Businesses today operate in a dynamic environment. In order to pace up with prevailing
+              trends and steer growth they require refined forecasts. This is exactly what we offer in our syndicated
+              reports!</p>
+            <div class="btn-box">
+              <a href="#">Read More</a>
+            </div>
+          </div>
+          <div class="offer-box">
+            <h5 style="font-size: 1.0417vw;">Emerging Technologies</h5>
+            <p class="textj5">At Fortune Business Insights we believe in empowering our clients with information on the
+              latest and emerging technologies, enabling them join the automation bandwagon.</p>
+            <div class="btn-box">
+              <a href="#">Read More</a>
+            </div>
+          </div>
+          <div class="offer-box">
+            <h5 style="font-size: 1.0417vw;">Competitive Intelligence</h5>
+            <p class="textj5">With competition getting fiercer each passing day, organizations around the world are in
+              need of valuable insights and accurate competitive intelligence - now more than ever.</p>
+            <div class="btn-box">
+              <a href="#">Read More</a>
+            </div>
+          </div>
+          <div class="offer-box">
+            <h5 style="font-size: 1.0417vw;">Customer Research</h5>
+            <p class="textj5">Impressive brand image can catapult a company to a market’s fore, irrespective of the
+              prevailing competition. This however needs the support of in-depth customer research.</p>
+            <div class="btn-box">
+              <a href="#">Read More</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+</div>
   
-  </div>
+<div id="includedContent"></div>
 
- 
-  <!-- ***************************************************************************************** -->
-  <script>
+<script>
+  $(document).ready(function () {
+      $("#includedContent").load("footer.html");
+  });
+</script>
+
+<script>
+
     // JavaScript for filtering
-    document.addEventListener('DOMContentLoaded', function() {
+    document.addEventListener('DOMContentLoaded', function () {
       const filterButtons = document.querySelectorAll('.filter-btn');
       const infoBoxes = document.querySelectorAll('.tab-pane');
 
@@ -1050,13 +1139,13 @@
       filterItems('all');
 
       filterButtons.forEach(button => {
-        button.addEventListener('click', function() {
+        button.addEventListener('click', function () {
           // Remove active class from all buttons
           filterButtons.forEach(btn => btn.classList.remove('active'));
-          
+
           // Add active class to clicked button
           this.classList.add('active');
-          
+
           // Filter items
           const filterValue = this.getAttribute('data-filter');
           filterItems(filterValue);
@@ -1075,6 +1164,7 @@
       }
     });
   </script>
+  <script src="./js/importfiles.js"></script>
   <script src="./js/json.js"></script>
   <script src="./js/Navbar.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
