@@ -78,3 +78,23 @@ input[type="search"] {
     border-color: transparent; /* Makes the border color transparent */
     outline: none; /* Removes the outline if focused */
 }
+
+
+
+@media only screen and (max-width: 980px) {
+    .text-menu{
+        position: fixed;
+        top: 8vw;
+        background-color: #113456;
+        position: relative;
+        width: 200%;
+        height: 100vw;
+        /* left: -2.8vw; */
+    }
+    .nav-item{
+        font-size: 4vw;
+        position: relative;
+        left: 10vw;
+        top: 10vw;
+    }
+}

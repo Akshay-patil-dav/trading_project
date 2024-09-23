@@ -54,3 +54,26 @@
     border-radius: 0.5208vw;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
+
+
+
+
+
+.remore{
+    text-decoration: none;
+    color: rgb(207, 207, 207);
+    border: 0.1vw solid;
+    font-size: 0.6250vw;
+    /* padding: 0.3vw; */
+    height: 1.3542vw;
+    border-radius: 0.9375vw;
+    width: 5.2604vw;
+    background-color: transparent;
+    position: relative;
+    top: 1.3542vw;
+    left: 1.3542vw;
+}
+.remore:hover{
+    background-color: rgb(207, 207, 207);
+    color: #113456;
+}

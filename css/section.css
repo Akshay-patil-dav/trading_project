@@ -1,36 +1,38 @@
-.sections{
-    
+.sections {
+
     position: relative;
     bottom: 5vw;
-    left:9.3750vw ;
+
+    left: 9.3750vw;
     display: grid;
     /* grid-template-columns: repeat(2,1fr); */
     /* grid-template-columns: auto auto ; */
-    grid-template-columns: repeat(2,1fr);
+    grid-template-columns: repeat(2, 1fr);
     /* gap: 1; */
     width: 2.6042vw;
     grid-gap: 3vw;
 }
 
-.green{
+.green {
     background-color: green;
     width: 36.3542vw;
     height: 0.8854vw;
 }
-.box1-selct{
+
+.box1-selct {
     background-color: #F3F3F3;
     width: 36.3542vw;
     height: 5.0521vw;
 }
 
 
-.Blogs{
+.Blogs {
     font-size: 1.9792vw;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-        position: relative;
-        top: 1.4583vw;
-        left: 2.1354vw;
-        color: #4CAA26;
+    position: relative;
+    top: 1.4583vw;
+    left: 2.1354vw;
+    color: #4CAA26;
 }
 
 /* .box2-ul{
@@ -38,15 +40,17 @@
     top: 56px;
 } */
 
-.box2-li{
+.box2-li {
     display: flex;
-   
+
 }
-.box1-col{
- position: relative;
+
+.box1-col {
+    position: relative;
     top: 2.9167vw;
 }
-.box2-selct{
+
+.box2-selct {
     position: relative;
     /* top: 18px; */
     background-color: #F3F3F3;
@@ -54,10 +58,11 @@
     height: 34.2188vw;
 }
 
-.box-text1{
+.box-text1 {
     display: flex;
 }
-.box-t1{
+
+.box-t1 {
     background-color: #65C73D;
     font-size: 1.25vw;
     /* padding: 0.2vw; */
@@ -67,10 +72,10 @@
 
     width: 2.3438vw;
     height: 2.0833vw;
-   
+
 }
 
-.box-t2{
+.box-t2 {
     background-color: rgba(101, 199, 61, 0.30);
     font-size: 1.25vw;
     color: white;
@@ -80,7 +85,7 @@
 
 }
 
-.bios-box2{
+.bios-box2 {
     /* padding: 1vw; */
     position: relative;
     top: 0.5vw;
@@ -90,10 +95,10 @@
     font-size: 0.7292vw;
 }
 
-.View-butt-box2{
+.View-butt-box2 {
     font-size: 0.8333vw;
     padding: 0.5vw;
-    border: 0.1vw  solid;
+    border: 0.1vw solid;
     width: 7.0833vw;
     text-align: center;
     border-radius: 0.5208vw;
@@ -105,39 +110,43 @@
 }
 
 
-.blue{
+.blue {
     background-color: #113456;
 }
-.bluetext{
+
+.bluetext {
     color: #113456;
 }
-.bluetext2{
+
+.bluetext2 {
     background-color: rgba(17, 52, 86, 0.30);
 }
+
 /* ********************************************* */
-.Consulting-Services{
+.Consulting-Services {
     background-color: #113456;
     width: 100%;
     height: 13.3333vw;
 }
-.Consulting{
+
+.Consulting {
     position: relative;
     top: 2.3438vw;
     margin: 1vw;
     color: white;
     /* background-color: red; */
 
-    font-size:  2.0833vw;
+    font-size: 2.0833vw;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     width: 87.7083vw;
     left: 2vw;
     text-align: center;
 }
 
-.Growth{
+.Growth {
     font-size: 1.25vw;
     width: 100%;
-    
+
     /* font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; */
     width: 87.7083vw;
     left: 2vw;
@@ -147,13 +156,15 @@
     color: white;
 }
 
-.Quote-contact-us{
+.Quote-contact-us {
     position: relative;
     top: 1.8229vw;
+    /* background-color: red; */
+    width: 50vw;
     left: 34.4792vw;
 }
 
-.Quote{
+.Quote {
     width: 11.7188vw;
     height: 2.8125vw;
     font-size: 0.9375vw;
@@ -162,7 +173,7 @@
     /* font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; */
 }
 
-.contact-us{
+.contact-us {
     width: 9.1667vw;
     height: 2.8125vw;
     /* font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; */
@@ -173,3 +184,276 @@
     left: 3vw;
 }
 
+@media only screen and (max-width: 980px) {
+
+    .box2-selct {
+        position: relative;
+        /* top: 18px; */
+        background-color: #F3F3F3;
+        width: 36.3542;
+        height: 160.2188vw;
+    }
+
+    .sections {
+
+        position: relative;
+        top: 20vw;
+
+        left: 2.3750vw;
+        /* right: 10vw; */
+        display: grid;
+        /* grid-template-columns: repeat(2,1fr); */
+        /* grid-template-columns: auto auto ; */
+        grid-template-columns: auto;
+        /* gap: 1; */
+        width: 2.6042vw;
+        grid-gap: 4vw;
+    }
+
+    .green {
+        background-color: green;
+        width: 95.3542vw;
+        height: 2.8854vw;
+    }
+
+    .box1-selct {
+        background-color: #F3F3F3;
+        width: 95.3542vw;
+        height: 10.0521vw;
+    }
+
+
+    .Blogs {
+        font-size: 5.9792vw;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        position: relative;
+        top: 1.4583vw;
+        left: 2.1354vw;
+        color: #4CAA26;
+    }
+
+    .box2-ul {
+        position: relative;
+        top: 46px;
+    }
+
+    .box2-li {
+        display: flex;
+
+    }
+
+    .box1-col {
+        position: relative;
+        top: 2.9167vw;
+    }
+
+
+    .box-text1 {
+        display: flex;
+    }
+
+    .box-t1 {
+        background-color: #65C73D;
+        font-size: 4.25vw;
+        /* padding: 0.2vw; */
+        text-align: center;
+        color: white;
+
+
+        width: 6.3438vw;
+        height: 6.0833vw;
+
+    }
+
+    .box-t2 {
+        background-color: rgba(101, 199, 61, 0.30);
+        font-size: 3.25vw;
+        color: white;
+        text-align: center;
+        width: 20vw;
+        height: 6.0833vw;
+
+    }
+
+    .bios-box2 {
+        /* padding: 1vw; */
+        position: relative;
+        top: 1.5vw;
+        /* background-color: red; */
+        text-align: left;
+        width: 70.2917vw;
+        font-size: 3.7292vw;
+    }
+
+    .View-butt-box2 {
+        font-size: 3.8333vw;
+        padding: 0.5vw;
+        border: 0.1vw solid;
+        width: 30.0833vw;
+        text-align: center;
+        border-radius: 0.5208vw;
+        text-decoration: none;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        color: #3C811F;
+        position: relative;
+        top: 5vw;
+    }
+
+
+    .blue {
+        background-color: #113456;
+    }
+
+    .bluetext {
+        color: #113456;
+    }
+
+    .bluetext2 {
+        background-color: rgba(17, 52, 86, 0.30);
+    }
+
+    /* ********************************************* */
+    .Consulting-Services {
+        background-color: #113456;
+        width: 100%;
+        height: 35.3333vw;
+        position: relative;
+        top: 30vw;
+    }
+
+    .Consulting {
+        position: relative;
+        top: 2.3438vw;
+        margin: 1vw;
+        color: white;
+        /* background-color: red; */
+
+        font-size: 9.0833vw;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        width: 87.7083vw;
+        left: 2.5vw;
+        text-align: center;
+    }
+
+    .Growth {
+        font-size: 2.25vw;
+        width: 100%;
+
+        /* font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; */
+        width: 87.7083vw;
+        left: 2vw;
+        text-align: center;
+        position: relative;
+        top: 1.5625vw;
+        color: white;
+    }
+
+    .Quote-contact-us {
+        position: relative;
+        top: 1.8229vw;
+        left: 25.4792vw;
+    }
+
+    .Quote {
+        width: auto;
+        height: auto;
+        font-size: 2.9375vw;
+        border: 0vw solid;
+        border-radius: 0.5208vw;
+        /* background-color: red; */
+        /* font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; */
+    }
+
+    .contact-us {
+        width: auto;
+        height: auto;
+        font-size: 2.9375vw;
+        border: 0vw solid;
+        border-radius: 0.5208vw;
+        position: relative;
+        left: 3vw;
+    }
+
+
+
+
+    /* ************************************************************ */
+    .Service-box {
+        position: relative;
+        top: 40vw;
+    }
+
+    .Service {
+        font-size: 6.1250vw;
+        /* background-color: red; */
+        color: hsla(210, 67%, 20%, 1);
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        width: 90%;
+        text-align: center;
+        position: relative;
+        top: 5.0625vw;
+        left: 2.6042vw;
+    }
+
+    .offer-box {
+        background-color: #153C66;
+        width: 90.3438vw;
+        height: 50vw;
+        border-radius: 6vw;
+    }
+
+    .Service-We-Offer {
+        position: relative;
+        /* top: 1.8750vw; */
+        bottom: 7vw;
+        display: grid;
+        grid-template-columns: auto;
+        grid-gap: 1.5208vw;
+        margin: 15vw;
+        top: 5vw;
+        right: 10vw;
+    }
+
+    .textj4 {
+        color: white;
+        font-size: 5.0417vw;
+        position: relative;
+        left: 2.6667vw;
+        top: 4.7813vw;
+    }
+
+    .textj5 {
+        color: white;
+        position: relative;
+        left: 1.6667vw;
+        width: 80.8542vw;
+        top: 5.7813vw;
+        font-size: 2.7292vw;
+        position: relative;
+        left: 4vw;
+    }
+
+
+    .remore {
+        text-decoration: none;
+        color: rgb(207, 207, 207);
+        border: 0.1vw solid;
+        font-size: 2.6250vw;
+        /* padding: 2vw; */
+        height: 1.3542vw;
+        border-radius: 0.9375vw;
+        width: 20.2604vw;
+        height: 5vw;
+        background-color: transparent;
+        position: relative;
+        top: 5.3542vw;
+        left: 3.3542vw;
+    }
+
+    .remore:hover {
+        background-color: rgb(207, 207, 207);
+        color: #113456;
+    }
+
+
+}

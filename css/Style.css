@@ -85,6 +85,10 @@ div.header-text-section{
       minmax(10.4167vw, 1fr));
     grid-gap: 0.5208vw;
     /* background-color: red; */
+    width: 70vw;
+    /* height: 2vw; */
+    /* overflow-x: scroll; */
+    /* overflow-y: hidden; */
     position: relative;
     top: 1.6667vw;
     left: 18.1042vw;
@@ -397,7 +401,7 @@ div.header-text-section{
     color: black;
     font-size: 0.8333vw;
     /* background-color: blue; */
-    width: 19vw;
+    width: 20vw;
     font-family: Arial black;
 }
 #Industry{
@@ -499,9 +503,9 @@ div.header-text-section{
             background-repeat: no-repeat;
         }
         .navbar-toggler{
-            position: relative;
+            position: fixed;
             left: 75vw;
-            top: 1vw;
+            top: 5vw;
             background-color: wheat;
             color: wheat;
             
@@ -730,7 +734,7 @@ div.header-text-section{
 .Reports{
     /* background-color: #70DA44; */
     width: 100%;
-    height: 91.9792vw;
+    height: 501.9792vw;
 }
 .Reports-header{
     /* background-color: red; */
@@ -953,7 +957,7 @@ div.header-text-section{
     color: black;
     font-size: 3.8333vw;
     /* background-color: blue; */
-    width: 39vw;
+    width: 50vw;
 
     font-family: Arial black;
 }
@@ -994,13 +998,17 @@ div.header-text-section{
     left: 3vw;
 }
 
-
+.serch-box{
+    display: none;
+}
 /* *************************************** */
 .box-info-Trending{
     /* background-color: #FFFFFF; */
     /* background-color: red; */
-    width: 70.2083vw;
+    width: 95.2083vw;
     height: 55.1563vw;
+    position: relative;
+    right: 13vw;
     
     /* width: 5vw; */
     box-shadow: 10px 10px 50px 12px #19191914;
